@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
         features = "src/test/resources/features/Login/LoginCMS.feature",
         //glue có nhiều thì cách nhau dấu ,
         glue = "stepdifinitions",
-        plugin = {"pretty", "html:target/cucumber-html-report.html"},
-        tags = "@success and ... or ..."
+        plugin = {"pretty", "html:target/cucumber-html-report.html"}
+
 )
 @Test
 public class TestRunnerLoginCMS extends AbstractTestNGCucumberTests {

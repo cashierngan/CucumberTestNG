@@ -7,34 +7,42 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import ngan.xd.constants.ConstantGlobal;
 import ngan.xd.driver.DriverManager;
+import ngan.xd.helpers.PropertiesHelpers;
+import ngan.xd.utils.WebUI;
 import org.openqa.selenium.By;
 
 public class StepsLoginCRM {
-    @Given("I am on the login page")
-    public void iAmOnTheLoginPage() {
-        BaseTest.createDriver("chrome");
-        DriverManager.getDriver().get(ConstantGlobal.URL);
+    @Given("User navigate to Login {string} Page")
+    public void iAmOnTheLoginPage(String page) {
+        WebUI.openURL(PropertiesHelpers.getValue("URL"));
     }
 
-    @When("I enter my username and password")
-    public void iEnterMyUsernameAndPassword() {
-        DriverManager.getDriver().findElement(By.xpath("//input[@id='email']")).sendKeys(ConstantGlobal.USERNAME);
-        DriverManager.getDriver().findElement(By.xpath("//input[@id='password']")).sendKeys(ConstantGlobal.PASSWORD);
-    }
-
-    //
-    @And("I click the Login button")
+    @And("User click on the Login button")
     public void iClickTheLoginButton() {
-        DriverManager.getDriver().findElement(By.xpath("//button[normalize-space() = 'Login']")).click();
+        WebUI.clickElement(By.xpath("//button[normalize-space() = 'Login']"));
     }
 
-    @Then("I should be taken to the Dashboard page")
-    public void iShouldBeTakenToTheDashboardPage() {
-        BaseTest.closeDriver();
+    @When("User input email {string} and {string}")
+    public void enteringEmailAnd(String arg0, String arg1) {
+        WebUI.setText(By.xpath("//input[@id='email']"), arg0);
+        WebUI.setText(By.xpath("//input[@id='password']"), arg1);
     }
-//
-//    @And("I should see the {string} menu")
-//    public void iShouldSeeTheMenu(String arg0) {
-//    }
 
+    @Then("The Customers page should be displayed")
+    public void iShouldBeTakenToTheCustomersPage() {
+        WebUI.waitForElementVisible(By.xpath("//span[normalize-space()='Customers']"));
+    }
+
+    @Then("The invalid message {string} should be displayed")
+    public void shouldBeDisplayed(String message) {
+        WebUI.waitForElementVisible(By.xpath("//div[normalize-space()='" + message + "']"));
+    }
+
+
+    @Then("The verification message should be displayed")
+    public void theVerifyMessageShouldBeDisplayed() {
+        System.out.println("________________________________________________-");
+        System.out.println(DriverManager.getDriver().findElement(By.id("email")).getAttribute("validationMessage"));
+        WebUI.verifyEquals(DriverManager.getDriver().findElement(By.id("email")).getAttribute("validationMessage"), "Please include an '@' in the email address. 'admin' is missing an '@'.");
+    }
 }

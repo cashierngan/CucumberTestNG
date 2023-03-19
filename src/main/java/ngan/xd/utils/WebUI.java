@@ -46,7 +46,7 @@ public class WebUI {
         sleep(STEP_TIME);
         highLightElement(by);
         DriverManager.getDriver().findElement(by).click();
-        ExtentTestManager.logMessage(Status.PASS, "Click element: " + by);
+//        ExtentTestManager.logMessage(Status.PASS, "Click element: " + by);
         Log.info("Click element: " + by.toString());
         AllureReportManager.saveTextLog("Click element: " + by.toString());
     }
@@ -60,7 +60,7 @@ public class WebUI {
         getWebElement(by).click();
         logConsole("Click element: " + by.toString());
         AllureReportManager.saveTextLog("Click element: " + by.toString());
-        ExtentTestManager.logMessage(Status.PASS, "Click element: " + by);
+//        ExtentTestManager.logMessage(Status.PASS, "Click element: " + by);
     }
 
     public static WebElement getWebElement(By by) {
@@ -74,7 +74,7 @@ public class WebUI {
         Assert.assertTrue(DriverManager.getDriver().findElement(by).getText().trim().equals(verifyText), message);
         Log.info("Verify " + verifyText + " is display correct on " + by.toString());
         AllureReportManager.saveTextLog("Verify " + verifyText + " is display correct on " + by.toString());
-        ExtentTestManager.logMessage(Status.PASS, "Verify " + verifyText + " is display correct on " + by.toString());
+//        ExtentTestManager.logMessage(Status.PASS, "Verify " + verifyText + " is display correct on " + by.toString());
     }
 
     @Step("Verify attribute {1} is contains {2} on {0}")
@@ -84,7 +84,7 @@ public class WebUI {
         Log.info("Verify contain: " + verifyText);
         Assert.assertTrue(DriverManager.getDriver().findElement(by).getAttribute(attribute).contains(verifyText), message);
         AllureReportManager.saveTextLog("Verify " + attribute + " is contains " + verifyText + " on " + by.toString());
-        ExtentTestManager.logMessage(Status.PASS, "Verify " + attribute + " is contains " + verifyText + " on " + by.toString());
+//        ExtentTestManager.logMessage(Status.PASS, "Verify " + attribute + " is contains " + verifyText + " on " + by.toString());
     }
 
     @Step("Verify {0} is displayed")
@@ -94,7 +94,7 @@ public class WebUI {
         Log.info("Verify " + by + " is displayed");
         Assert.assertTrue(DriverManager.getDriver().findElement(by).isDisplayed(), message);
         AllureReportManager.saveTextLog("Verify " + by + " is displayed");
-        ExtentTestManager.logMessage("Verify " + by + " is displayed");
+//        ExtentTestManager.logMessage("Verify " + by + " is displayed");
     }
 
     @Step("Verify attribute {1} is contains {2} on {0}")
@@ -104,7 +104,7 @@ public class WebUI {
         Log.info("Verify attribute " + attribute + " is contains " + expectedValue + " on " + by.toString());
         Assert.assertTrue(DriverManager.getDriver().findElement(by).getAttribute(attribute).trim().equals(expectedValue), message);
         AllureReportManager.saveTextLog("Verify attribute " + attribute + " is contains " + expectedValue + " on " + by.toString());
-        ExtentTestManager.logMessage("Verify attribute " + attribute + " is contains " + expectedValue + " on " + by.toString());
+//        ExtentTestManager.logMessage("Verify attribute " + attribute + " is contains " + expectedValue + " on " + by.toString());
     }
 
     public static void setValue(By by, String value) {
@@ -127,15 +127,15 @@ public class WebUI {
 //        action.keyDown(Keys.COMMAND).sendKeys("a").keyUp(Keys.COMMAND).sendKeys(Keys.DELETE).build().perform();
         AllureReportManager.saveTextLog("Clear text on: " + by.toString());
         Log.info("Clear text on: " + by.toString());
-        ExtentTestManager.logMessage("Clear text on: " + by.toString());
+//        ExtentTestManager.logMessage("Clear text on: " + by.toString());
     }
 
     @Step("Key down Enter")
     public static void keydownEnter() {
         action.keyDown(Keys.ENTER).keyUp(Keys.ENTER).build().perform();
-        AllureReportManager.saveTextLog("Key down Enter");
+//        AllureReportManager.saveTextLog("Key down Enter");
         Log.info("Key down Enter");
-        ExtentTestManager.logMessage("Key down Enter");
+//        ExtentTestManager.logMessage("Key down Enter");
     }
 
     @Step("Set text {1} on {0}")
@@ -146,7 +146,7 @@ public class WebUI {
         highLightElement(by);
         clearText(by);
         getWebElement(by).sendKeys(value);
-        ExtentTestManager.logMessage(Status.PASS, "Set text: " + value + " on element " + by);
+//        ExtentTestManager.logMessage(Status.PASS, "Set text: " + value + " on element " + by);
         AllureReportManager.saveTextLog("Set text {1} on {0}");
         Log.info("Set text {1} on {0}");
     }
@@ -159,7 +159,7 @@ public class WebUI {
         sleep(STEP_TIME);
         highLightElement(by);
         getWebElement(by).sendKeys(value, Keys.ENTER);
-        ExtentTestManager.logMessage(Status.PASS, "Set text: " + value + " on element " + by);
+//        ExtentTestManager.logMessage(Status.PASS, "Set text: " + value + " on element " + by);
         AllureReportManager.saveTextLog("Set text " + value + " on " + by.toString() + " and key down enter");
         Log.info("Set text " + value + " on " + by.toString() + " and key down enter");
     }
@@ -179,7 +179,7 @@ public class WebUI {
     public static void waitForElementVisible(By by) {
         WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(TIMEOUT));
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-        ExtentTestManager.logMessage(Status.PASS, "Wait until the element " + by + " is visible");
+//        ExtentTestManager.logMessage(Status.PASS, "Wait until the element " + by + " is visible");
         AllureReportManager.saveTextLog("Wait until the element " + by + " is visible");
         Log.info("Wait until the element " + by + " is visible");
     }
@@ -188,7 +188,7 @@ public class WebUI {
     public static void waitForElementInvisible(By by) {
         WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(TIMEOUT));
         wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
-        ExtentTestManager.logMessage(Status.PASS, "Wait until the element " + by + " is invisible");
+//        ExtentTestManager.logMessage(Status.PASS, "Wait until the element " + by + " is invisible");
         AllureReportManager.saveTextLog("Wait until the element " + by + " is invisible");
         Log.info("Wait until the element " + by + " is invisible");
     }
@@ -197,7 +197,7 @@ public class WebUI {
     public static void openURL(String URL) {
         DriverManager.getDriver().get(URL);
         logConsole("Open URL: " + URL);
-        ExtentTestManager.logMessage(Status.PASS, "Open URL: " + URL);
+//        ExtentTestManager.logMessage(Status.PASS, "Open URL: " + URL);
         waitForPageLoaded();
         AllureReportManager.saveTextLog("Open URL: " + URL);
     }
@@ -271,7 +271,7 @@ public class WebUI {
         waitForPageLoaded();
         sleep(STEP_TIME);
         Assert.assertEquals(actual, expected, "Fail, NOT match" + actual.toString() + "not equals" + expected.toString());
-        ExtentTestManager.logMessage(Status.PASS, "Verify result" + expected + " is correct");
+//        ExtentTestManager.logMessage(Status.PASS, "Verify result" + expected + " is correct");
         AllureReportManager.saveTextLog("Verify result" + expected + " is correct");
         Log.info("Verify result" + expected + " is correct");
     }
@@ -281,7 +281,7 @@ public class WebUI {
         waitForPageLoaded();
         sleep(STEP_TIME);
         Assert.assertEquals(actual, expected, message);
-        ExtentTestManager.logMessage(Status.PASS, "Verify result" + expected + " is correct");
+//        ExtentTestManager.logMessage(Status.PASS, "Verify result" + expected + " is correct");
         AllureReportManager.saveTextLog("Verify result" + expected + " is correct");
         Log.info("Verify result" + expected + " is correct");
     }
@@ -416,7 +416,7 @@ public class WebUI {
     public static boolean hoverElement(By by) {
         try {
             Actions action = new Actions(DriverManager.getDriver());
-            action.moveToElement(getWebElement(by)).perform();
+            action.moveToElement(getWebElement(by)).build().perform();
             return true;
         } catch (Exception e) {
             return false;
@@ -426,7 +426,7 @@ public class WebUI {
     public static boolean mouseHover(By by) {
         try {
             Actions action = new Actions(DriverManager.getDriver());
-            action.moveToElement(getWebElement(by)).perform();
+            action.moveToElement(getWebElement(by)).build().perform();
             return true;
         } catch (Exception e) {
             return false;

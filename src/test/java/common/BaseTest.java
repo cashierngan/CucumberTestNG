@@ -25,6 +25,12 @@ public class BaseTest{
         //PropertiesHelpers.loadAllFiles();
     }
 
+    public static void createDriver() {
+        WebDriver driver = setupBrowser("chrome");
+        DriverManager.setDriver(driver);
+        //PropertiesHelpers.loadAllFiles();
+    }
+
     //Viết hàm trung gian để lựa chọn Browser cần chạy với giá trị tham số "browser" bên trên truyền vào
     public static WebDriver setupBrowser(String browserName) {
         WebDriver driver;
@@ -52,6 +58,7 @@ public class BaseTest{
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
         options.setHeadless(ConstantGlobal.HEADLESS);
 
         driver = new ChromeDriver(options);
@@ -65,6 +72,7 @@ public class BaseTest{
         WebDriverManager.edgedriver().setup();
 
         EdgeOptions options = new EdgeOptions();
+        options.addArguments("--remote-allow-origins=*");
         options.setHeadless(ConstantGlobal.HEADLESS);
 
         driver = new EdgeDriver(options);
@@ -78,6 +86,7 @@ public class BaseTest{
         WebDriverManager.firefoxdriver().setup();
 
         FirefoxOptions options = new FirefoxOptions();
+        options.addArguments("--remote-allow-origins=*");
         options.setHeadless(ConstantGlobal.HEADLESS);
 
         driver = new FirefoxDriver(options);
