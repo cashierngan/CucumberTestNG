@@ -6,7 +6,7 @@ Feature: Delete customer from CRM page
 
   Scenario: Delete customer
     Given user has access to the Customer page
-    When user search for customer "MoMo"
-    And user click on Delete button at company "MoMo"
+    When user search for a new customer
+    And user click on Delete button at a new company
     And user click on OK
     Then delete message be displayed

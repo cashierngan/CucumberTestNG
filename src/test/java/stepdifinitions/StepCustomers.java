@@ -6,9 +6,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import ngan.xd.driver.DriverManager;
 import ngan.xd.utils.WebUI;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import pages.CustomersPage;
 import pages.LoginCRMPage;
+
+import java.util.Random;
+
+import static pages.CustomersPage.companyName;
 
 public class StepCustomers {
     public CustomersPage customersPage;
@@ -28,6 +33,7 @@ public class StepCustomers {
     @And("user click on the Save button")
     public void userClickOnTheSaveButton() {
         customersPage = new CustomersPage();
+        WebUI.scrollToElement(customersPage.buttonSave);
         WebUI.clickElement(customersPage.buttonSave);
         WebUI.waitForElementVisible(customersPage.messageAddCustomerSuccess);
     }
@@ -40,21 +46,24 @@ public class StepCustomers {
     }
 
 
-    @Then("A new customer {string}, phone {string}, website {string} would be displayed")
-    public void aNewCustomerWouldBeDisplayed(String company, String phone, String website) {
+    @Then("A new customer with phone {string}, website {string} would be displayed")
+    public void aNewCustomerWouldBeDisplayed(String phone, String website) {
         customersPage = new CustomersPage();
-        customersPage.verifyNewCustomer(company, phone, website);
+        customersPage.verifyNewCustomer(phone, website);
     }
 
-    @When("user search for customer {string}")
-    public void userSearchForCustomer(String company) {
-        WebUI.setText(By.xpath("//input[@class='form-control input-sm']"), company);
+    @When("user search for a new customer")
+    public void userSearchForCustomer() {
+        System.out.println("____________________________________________________________________");
+        System.out.println("____________________________________________________________________");
+        System.out.println(companyName);
+        WebUI.setText(By.xpath("//input[@class='form-control input-sm']"), companyName);
     }
 
-    @And("user click on Delete button at company {string}")
-    public void userClickOnDeleteButton(String company) {
+    @And("user click on Delete button at a new company")
+    public void userClickOnDeleteButton() {
         customersPage = new CustomersPage();
-        customersPage.deleteCustomer(company);
+        customersPage.deleteCustomer(companyName);
     }
 
     @And("user click on OK")

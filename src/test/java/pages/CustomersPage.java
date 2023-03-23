@@ -1,7 +1,11 @@
 package pages;
 
+import ngan.xd.driver.DriverManager;
 import ngan.xd.utils.WebUI;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
+
+import java.util.Random;
 
 public class CustomersPage {
     public static By menuCustomers = By.xpath("//span[normalize-space()='Customers']");
@@ -14,17 +18,20 @@ public class CustomersPage {
     public static By messageAddCustomerSuccess = By.xpath("//div[normalize-space()='×Customer added successfully.']");
     private static By inputSearchCustomer = By.xpath("//input[@id='search_input']");
     private By profileScreen = By.xpath("//h4[normalize-space()='Profile']");
+    public static String companyName;
     public void addCustomerSuccess(String company, String phone, String website){
+        String randomString = RandomStringUtils.randomAlphabetic(7);
         WebUI.clickElement(buttonNewCustomers);
-        WebUI.setTextEnter(inputCompany,company);
+        WebUI.setTextEnter(inputCompany,company + " " + randomString);
         WebUI.setTextEnter(inputPhone,phone);
         WebUI.setTextEnter(inputWebsite,website);
+        companyName = DriverManager.getDriver().findElement(By.xpath("//input[@id='company']")).getAttribute("value");
     }
 
-    public void verifyNewCustomer(String customer, String phone, String website){
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//span[contains(text(),'" + customer + "')]"), "Customer is NOT displayed");
+    public void verifyNewCustomer(String phone, String website){
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//span[contains(text(),'" + companyName + "')]"), "Customer is NOT displayed");
         WebUI.verifyAssertTrueIsDisplayed(profileScreen, "Profile screen is not displayed");
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//input[@value='" + customer + "']"), "Failed to display the customer name");
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//input[@value='" + companyName + "']"), "Failed to display the customer name");
         WebUI.verifyAssertTrueIsDisplayed(By.xpath("//input[@value='" + phone + "']"), "Failed to display the phone");
         WebUI.verifyAssertTrueIsDisplayed(By.xpath("//input[@value='" + website + "']"), "Failed to display the phone");
     }
