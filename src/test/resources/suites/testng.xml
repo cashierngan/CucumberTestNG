@@ -2,8 +2,8 @@
 <suite name="Test Suite" verbose="1">
     <test name="Run Gherkin">
         <classes>
-            <class name="runner.TestRunnerLoginCMS" />
-            <class name="runner.TestRunnerLoginCRM" />
+            <class name="nganxd.runner.TestRunnerLoginCMS" />
+            <class name="nganxd.runner.TestRunnerLoginCRM" />
         </classes>
     </test>
 </suite>

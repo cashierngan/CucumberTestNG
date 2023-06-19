@@ -1,0 +1,422 @@
+[INFO] 23-04-2023 16:18:19 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:24:36 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:29:52 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:29:52 [main] Log - Delete customer
+[INFO] 23-04-2023 16:32:37 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:32:37 [main] Log - Delete customer
+[INFO] 23-04-2023 16:34:11 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:34:11 [main] Log - Delete customer
+[INFO] 23-04-2023 16:40:18 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:40:22 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (2e01b47ba6054a1f884e47e6c26d0e08)
+[INFO] 23-04-2023 16:40:25 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:40:25 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:40:25 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:40:27 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:40:27 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:40:27 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:40:30 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:40:30 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:40:30 [main] Log - Delete customer
+[INFO] 23-04-2023 16:40:31 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (6f3f87c7580da8e6cff1f0bb2bc2f770)
+[INFO] 23-04-2023 16:40:33 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:40:33 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:40:33 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:40:35 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:40:35 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:40:35 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:40:41 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:40:41 [main] Log - Delete customer
+[INFO] 23-04-2023 16:41:26 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:41:27 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (1bf95680f556fe4333e0d651d342dea6)
+[INFO] 23-04-2023 16:41:30 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:41:30 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:41:30 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:41:32 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:41:32 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:41:32 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:41:34 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:41:34 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:43:36 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:43:37 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (2147b556ffafb9e06424d714cc341d86)
+[INFO] 23-04-2023 16:43:40 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:43:40 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:43:40 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:43:42 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:43:42 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:43:42 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:43:44 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:43:44 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:43:46 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 23-04-2023 16:43:46 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 23-04-2023 16:43:46 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:43:47 [main] Log - Click element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 23-04-2023 16:43:48 [main] Log - Set text MoMo iNhHOZH on By.xpath: //input[@id='company'] and key down enter
+[INFO] 23-04-2023 16:43:49 [main] Log - Set text 0869905206 on By.xpath: //input[@id='phonenumber'] and key down enter
+[INFO] 23-04-2023 16:43:50 [main] Log - Set text https://momo.vn on By.xpath: //input[@id='website'] and key down enter
+[INFO] 23-04-2023 16:43:50 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:43:53 [main] Log - Click element: By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 23-04-2023 16:43:53 [main] Log - Wait until the element By.xpath: //div[normalize-space()='×Customer added successfully.'] is visible
+[INFO] 23-04-2023 16:43:53 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:43:53 [main] Log - Verify By.xpath: //span[contains(text(),'MoMo iNhHOZH')] is displayed
+[INFO] 23-04-2023 16:43:53 [main] Log - Verify By.xpath: //h4[normalize-space()='Profile'] is displayed
+[INFO] 23-04-2023 16:43:53 [main] Log - Verify By.xpath: //input[@value='MoMo iNhHOZH'] is displayed
+[INFO] 23-04-2023 16:43:53 [main] Log - Verify By.xpath: //input[@value='0869905206'] is displayed
+[INFO] 23-04-2023 16:43:53 [main] Log - Verify By.xpath: //input[@value='https://momo.vn'] is displayed
+[INFO] 23-04-2023 16:44:13 [main] Log - Delete customer
+[INFO] 23-04-2023 16:44:15 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (a7bda1baccc029d540479b9539c95d0e)
+[INFO] 23-04-2023 16:44:17 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:44:17 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:44:17 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:44:20 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:44:20 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:44:20 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:44:22 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:44:22 [main] Log - Delete customer
+[INFO] 23-04-2023 16:44:23 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 23-04-2023 16:44:23 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 23-04-2023 16:44:23 [main] Log - Delete customer
+[INFO] 23-04-2023 16:44:26 [main] Log - Click element: By.xpath: //input[@class='form-control input-sm']
+[INFO] 23-04-2023 16:44:26 [main] Log - Clear text on: By.xpath: //input[@class='form-control input-sm']
+[INFO] 23-04-2023 16:48:19 [main] Log - Delete customer
+[INFO] 23-04-2023 16:48:20 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (1da543257601b4e4dfe5b368cd53eb0b)
+[INFO] 23-04-2023 16:48:23 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:48:23 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:48:23 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:48:25 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:48:25 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:48:25 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:48:27 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:48:27 [main] Log - Delete customer
+[INFO] 23-04-2023 16:48:29 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 23-04-2023 16:48:29 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 23-04-2023 16:48:29 [main] Log - Delete customer
+[INFO] 23-04-2023 16:48:32 [main] Log - Click element: By.xpath: //input[@class='form-control input-sm']
+[INFO] 23-04-2023 16:48:32 [main] Log - Clear text on: By.xpath: //input[@class='form-control input-sm']
+[INFO] 23-04-2023 16:50:54 [main] Log - Delete customer
+[INFO] 23-04-2023 16:50:55 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (b6cc3688de4118063bd245c21f6546d1)
+[INFO] 23-04-2023 16:50:58 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:50:58 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:50:58 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:51:00 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:51:00 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:51:00 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:51:03 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:51:03 [main] Log - Delete customer
+[INFO] 23-04-2023 16:51:04 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 23-04-2023 16:51:04 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 23-04-2023 16:51:04 [main] Log - Delete customer
+[INFO] 23-04-2023 16:51:07 [main] Log - Click element: By.xpath: //input[@class='form-control input-sm']
+[INFO] 23-04-2023 16:51:07 [main] Log - Clear text on: By.xpath: //input[@class='form-control input-sm']
+[INFO] 23-04-2023 16:51:21 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:51:22 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (73c31d9c40102c8d77139b81cad3684d)
+[INFO] 23-04-2023 16:51:25 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:51:25 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:51:25 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:51:27 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:51:27 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:51:27 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:51:29 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 16:51:29 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:51:30 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 23-04-2023 16:51:30 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 23-04-2023 16:51:30 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:51:32 [main] Log - Click element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 23-04-2023 16:51:33 [main] Log - Set text MoMo AipVNej on By.xpath: //input[@id='company'] and key down enter
+[INFO] 23-04-2023 16:51:34 [main] Log - Set text 0869905206 on By.xpath: //input[@id='phonenumber'] and key down enter
+[INFO] 23-04-2023 16:51:35 [main] Log - Set text https://momo.vn on By.xpath: //input[@id='website'] and key down enter
+[INFO] 23-04-2023 16:51:35 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:51:37 [main] Log - Click element: By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 23-04-2023 16:51:37 [main] Log - Wait until the element By.xpath: //div[normalize-space()='×Customer added successfully.'] is visible
+[INFO] 23-04-2023 16:51:37 [main] Log - Add a new customer success
+[INFO] 23-04-2023 16:51:37 [main] Log - Verify By.xpath: //span[contains(text(),'MoMo AipVNej')] is displayed
+[INFO] 23-04-2023 16:51:37 [main] Log - Verify By.xpath: //h4[normalize-space()='Profile'] is displayed
+[INFO] 23-04-2023 16:51:37 [main] Log - Verify By.xpath: //input[@value='MoMo AipVNej'] is displayed
+[INFO] 23-04-2023 16:51:37 [main] Log - Verify By.xpath: //input[@value='0869905206'] is displayed
+[INFO] 23-04-2023 16:51:37 [main] Log - Verify By.xpath: //input[@value='https://momo.vn'] is displayed
+[INFO] 23-04-2023 16:51:37 [main] Log - Delete customer
+[INFO] 23-04-2023 16:51:38 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (0dcf4db99fdde43c952b3b1043bae9d8)
+[INFO] 23-04-2023 16:51:40 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:51:40 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 16:51:40 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 16:51:42 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:51:42 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 16:51:42 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 22:31:46 [main] Log - Add a new customer success
+[INFO] 23-04-2023 22:31:51 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (e25407e05404479b08da8b1f11a3fba4)
+[INFO] 23-04-2023 22:31:54 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 22:31:54 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 23-04-2023 22:31:54 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 22:31:57 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 22:31:57 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 23-04-2023 22:31:57 [main] Log - Set text {1} on {0}
+[INFO] 23-04-2023 22:32:00 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 23-04-2023 22:32:00 [main] Log - Add a new customer success
+[INFO] 23-04-2023 22:32:02 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 23-04-2023 22:32:02 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 23-04-2023 22:32:02 [main] Log - Add a new customer success
+[INFO] 23-04-2023 22:32:04 [main] Log - Click element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 23-04-2023 22:32:06 [main] Log - Set text MoMo YJNkJfA on By.xpath: //input[@id='company'] and key down enter
+[INFO] 23-04-2023 22:32:07 [main] Log - Set text 0869905206 on By.xpath: //input[@id='phonenumber'] and key down enter
+[INFO] 23-04-2023 22:32:08 [main] Log - Set text https://momo.vn on By.xpath: //input[@id='website'] and key down enter
+[INFO] 23-04-2023 22:32:08 [main] Log - Add a new customer success
+[INFO] 23-04-2023 22:32:11 [main] Log - Click element: By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 23-04-2023 22:32:11 [main] Log - Wait until the element By.xpath: //div[normalize-space()='×Customer added successfully.'] is visible
+[INFO] 23-04-2023 22:32:11 [main] Log - Add a new customer success
+[INFO] 23-04-2023 22:32:11 [main] Log - Verify By.xpath: //span[contains(text(),'MoMo YJNkJfA')] is displayed
+[INFO] 23-04-2023 22:32:11 [main] Log - Verify By.xpath: //h4[normalize-space()='Profile'] is displayed
+[INFO] 23-04-2023 22:32:12 [main] Log - Verify By.xpath: //input[@value='MoMo YJNkJfA'] is displayed
+[INFO] 23-04-2023 22:32:12 [main] Log - Verify By.xpath: //input[@value='0869905206'] is displayed
+[INFO] 23-04-2023 22:32:12 [main] Log - Verify By.xpath: //input[@value='https://momo.vn'] is displayed
+[INFO] 25-04-2023 19:57:53 [main] Log - Add a new customer success
+[INFO] 25-04-2023 19:57:56 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (be2c130b40210a4ba8cc56b1a83e5873)
+[INFO] 25-04-2023 19:57:59 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 25-04-2023 19:57:59 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 25-04-2023 19:57:59 [main] Log - Set text {1} on {0}
+[INFO] 25-04-2023 19:58:01 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 25-04-2023 19:58:01 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 25-04-2023 19:58:01 [main] Log - Set text {1} on {0}
+[INFO] 25-04-2023 19:58:03 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 25-04-2023 19:58:03 [main] Log - Add a new customer success
+[INFO] 25-04-2023 19:58:05 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 25-04-2023 19:58:05 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 25-04-2023 19:58:05 [main] Log - Add a new customer success
+[INFO] 25-04-2023 19:58:06 [main] Log - Click element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 25-04-2023 19:58:07 [main] Log - Set text MoMo nXsJHek on By.xpath: //input[@id='company'] and key down enter
+[INFO] 25-04-2023 19:58:08 [main] Log - Set text 0869905206 on By.xpath: //input[@id='phonenumber'] and key down enter
+[INFO] 25-04-2023 19:58:09 [main] Log - Set text https://momo.vn on By.xpath: //input[@id='website'] and key down enter
+[INFO] 25-04-2023 19:58:09 [main] Log - Add a new customer success
+[INFO] 25-04-2023 19:58:11 [main] Log - Click element: By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 25-04-2023 19:58:11 [main] Log - Wait until the element By.xpath: //div[normalize-space()='×Customer added successfully.'] is visible
+[INFO] 25-04-2023 19:58:11 [main] Log - Add a new customer success
+[INFO] 25-04-2023 19:58:11 [main] Log - Verify By.xpath: //span[contains(text(),'MoMo nXsJHek')] is displayed
+[INFO] 25-04-2023 19:58:11 [main] Log - Verify By.xpath: //h4[normalize-space()='Profile'] is displayed
+[INFO] 25-04-2023 19:58:11 [main] Log - Verify By.xpath: //input[@value='MoMo nXsJHek'] is displayed
+[INFO] 25-04-2023 19:58:11 [main] Log - Verify By.xpath: //input[@value='0869905206'] is displayed
+[INFO] 25-04-2023 19:58:11 [main] Log - Verify By.xpath: //input[@value='https://momo.vn'] is displayed
+[INFO] 25-04-2023 19:58:11 [main] Log - Delete customer
+[INFO] 25-04-2023 19:58:12 [main] Log - Driver in TestContext: ChromeDriver: chrome on WINDOWS (d29d863e2de4129c6d6f9b8644f48e38)
+[INFO] 25-04-2023 19:58:15 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 25-04-2023 19:58:15 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 25-04-2023 19:58:15 [main] Log - Set text {1} on {0}
+[INFO] 25-04-2023 19:58:17 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 25-04-2023 19:58:17 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 25-04-2023 19:58:17 [main] Log - Set text {1} on {0}
+[INFO] 25-04-2023 19:58:19 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 25-04-2023 19:58:19 [main] Log - Delete customer
+[INFO] 25-04-2023 19:58:21 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 25-04-2023 19:58:21 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 25-04-2023 19:58:21 [main] Log - Delete customer
+[INFO] 25-04-2023 19:58:23 [main] Log - Click element: By.xpath: //input[@class='form-control input-sm']
+[INFO] 25-04-2023 19:58:23 [main] Log - Clear text on: By.xpath: //input[@class='form-control input-sm']
+[INFO] 25-04-2023 19:58:23 [main] Log - Set text {1} on {0}
+[INFO] 25-04-2023 19:58:23 [main] Log - Delete customer
+[INFO] 25-04-2023 19:58:24 [main] Log - Wait until the element By.xpath: //tr[@class='has-row-options odd']//a[contains(text(),'MoMo nXsJHek')] is visible
+[INFO] 25-04-2023 19:58:26 [main] Log - Click element: By.xpath: //tr[@class='has-row-options odd']//a[@class='text-danger _delete'][normalize-space()='Delete']
+[INFO] 25-04-2023 19:58:26 [main] Log - Delete customer
+[INFO] 25-04-2023 19:58:28 [main] Log - Delete customer
+[INFO] 25-04-2023 19:58:30 [main] Log - Verify By.xpath: //span[normalize-space()='Customer deleted'] is displayed
+[INFO] 11-05-2023 20:38:37 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:38:41 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (db94689d17115223c681761310c0dd8c)
+[INFO] 11-05-2023 20:38:43 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:38:43 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:38:43 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:38:46 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:38:46 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:38:46 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:38:48 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 11-05-2023 20:38:48 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:38:50 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-05-2023 20:38:50 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 11-05-2023 20:38:50 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:38:51 [main] Log - Click element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 11-05-2023 20:38:52 [main] Log - Set text MoMo LVkmBfr on By.xpath: //input[@id='company'] and key down enter
+[INFO] 11-05-2023 20:38:53 [main] Log - Set text 0869905206 on By.xpath: //input[@id='phonenumber'] and key down enter
+[INFO] 11-05-2023 20:38:54 [main] Log - Set text https://momo.vn on By.xpath: //input[@id='website'] and key down enter
+[INFO] 11-05-2023 20:38:54 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:38:56 [main] Log - Click element: By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 11-05-2023 20:38:56 [main] Log - Wait until the element By.xpath: //div[normalize-space()='×Customer added successfully.'] is visible
+[INFO] 11-05-2023 20:38:56 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:38:56 [main] Log - Verify By.xpath: //span[contains(text(),'MoMo LVkmBfr')] is displayed
+[INFO] 11-05-2023 20:38:56 [main] Log - Verify By.xpath: //h4[normalize-space()='Profile'] is displayed
+[INFO] 11-05-2023 20:38:56 [main] Log - Verify By.xpath: //input[@value='MoMo LVkmBfr'] is displayed
+[INFO] 11-05-2023 20:38:56 [main] Log - Verify By.xpath: //input[@value='0869905206'] is displayed
+[INFO] 11-05-2023 20:38:56 [main] Log - Verify By.xpath: //input[@value='https://momo.vn'] is displayed
+[INFO] 11-05-2023 20:38:57 [main] Log - Delete customer
+[INFO] 11-05-2023 20:38:58 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (31a8de183df595b60eef577aac16346b)
+[INFO] 11-05-2023 20:39:00 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:39:00 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:39:00 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:39:02 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:39:02 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:39:02 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:39:05 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 11-05-2023 20:39:05 [main] Log - Delete customer
+[INFO] 11-05-2023 20:39:06 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-05-2023 20:39:06 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 11-05-2023 20:39:06 [main] Log - Delete customer
+[INFO] 11-05-2023 20:39:09 [main] Log - Click element: By.xpath: //input[@class='form-control input-sm']
+[INFO] 11-05-2023 20:39:09 [main] Log - Clear text on: By.xpath: //input[@class='form-control input-sm']
+[INFO] 11-05-2023 20:39:09 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:39:09 [main] Log - Delete customer
+[INFO] 11-05-2023 20:39:10 [main] Log - Wait until the element By.xpath: //tr[@class='has-row-options odd']//a[contains(text(),'MoMo LVkmBfr')] is visible
+[INFO] 11-05-2023 20:39:11 [main] Log - Click element: By.xpath: //tr[@class='has-row-options odd']//a[@class='text-danger _delete'][normalize-space()='Delete']
+[INFO] 11-05-2023 20:39:11 [main] Log - Delete customer
+[INFO] 11-05-2023 20:39:13 [main] Log - Delete customer
+[INFO] 11-05-2023 20:39:15 [main] Log - Verify By.xpath: //span[normalize-space()='Customer deleted'] is displayed
+[INFO] 11-05-2023 20:42:26 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:42:27 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (f098a4f13d433ffae6a87be5ea315cc5)
+[INFO] 11-05-2023 20:42:30 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:42:30 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:42:30 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:42:32 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:42:32 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:42:32 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:42:35 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 11-05-2023 20:42:35 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:42:36 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-05-2023 20:42:36 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 11-05-2023 20:42:36 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:42:38 [main] Log - Click element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 11-05-2023 20:42:39 [main] Log - Set text MoMo OrcjLbw on By.xpath: //input[@id='company'] and key down enter
+[INFO] 11-05-2023 20:42:40 [main] Log - Set text 0869905206 on By.xpath: //input[@id='phonenumber'] and key down enter
+[INFO] 11-05-2023 20:42:41 [main] Log - Set text https://momo.vn on By.xpath: //input[@id='website'] and key down enter
+[INFO] 11-05-2023 20:42:41 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:42:43 [main] Log - Click element: By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 11-05-2023 20:42:43 [main] Log - Wait until the element By.xpath: //div[normalize-space()='×Customer added successfully.'] is visible
+[INFO] 11-05-2023 20:42:43 [main] Log - Add a new customer success
+[INFO] 11-05-2023 20:42:43 [main] Log - Verify By.xpath: //span[contains(text(),'MoMo OrcjLbw')] is displayed
+[INFO] 11-05-2023 20:42:43 [main] Log - Verify By.xpath: //h4[normalize-space()='Profile'] is displayed
+[INFO] 11-05-2023 20:42:43 [main] Log - Verify By.xpath: //input[@value='MoMo OrcjLbw'] is displayed
+[INFO] 11-05-2023 20:42:43 [main] Log - Verify By.xpath: //input[@value='0869905206'] is displayed
+[INFO] 11-05-2023 20:42:43 [main] Log - Verify By.xpath: //input[@value='https://momo.vn'] is displayed
+[INFO] 11-05-2023 20:42:43 [main] Log - Delete customer
+[INFO] 11-05-2023 20:42:44 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (b2c4b7c1c0ddaf224c770316870fa182)
+[INFO] 11-05-2023 20:42:46 [main] Log - Click element: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:42:46 [main] Log - Clear text on: By.xpath: //input[@id='email']
+[INFO] 11-05-2023 20:42:46 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:42:49 [main] Log - Click element: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:42:49 [main] Log - Clear text on: By.xpath: //input[@id='password']
+[INFO] 11-05-2023 20:42:49 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:42:51 [main] Log - Click element: By.xpath: //button[normalize-space() = 'Login']
+[INFO] 11-05-2023 20:42:51 [main] Log - Delete customer
+[INFO] 11-05-2023 20:42:52 [main] Log - Click element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-05-2023 20:42:52 [main] Log - Wait until the element By.xpath: //span[normalize-space()='Customers Summary'] is visible
+[INFO] 11-05-2023 20:42:52 [main] Log - Delete customer
+[INFO] 11-05-2023 20:42:55 [main] Log - Click element: By.xpath: //input[@class='form-control input-sm']
+[INFO] 11-05-2023 20:42:55 [main] Log - Clear text on: By.xpath: //input[@class='form-control input-sm']
+[INFO] 11-05-2023 20:42:55 [main] Log - Set text {1} on {0}
+[INFO] 11-05-2023 20:42:55 [main] Log - Delete customer
+[INFO] 11-05-2023 20:42:56 [main] Log - Wait until the element By.xpath: //tr[@class='has-row-options odd']//a[contains(text(),'MoMo OrcjLbw')] is visible
+[INFO] 11-05-2023 20:42:57 [main] Log - Click element: By.xpath: //tr[@class='has-row-options odd']//a[@class='text-danger _delete'][normalize-space()='Delete']
+[INFO] 11-05-2023 20:42:57 [main] Log - Delete customer
+[INFO] 11-05-2023 20:42:59 [main] Log - Delete customer
+[INFO] 11-05-2023 20:43:01 [main] Log - Verify By.xpath: //span[normalize-space()='Customer deleted'] is displayed
+[INFO] 18-05-2023 21:30:03 [main] Log - Add a new customer success
+[INFO] 18-05-2023 21:30:07 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (004f4701b16ae310c5ed960e55a80669)
+[INFO] 18-05-2023 21:30:16 [main] Log - Add a new customer success
+[INFO] 18-05-2023 21:30:18 [main] Log - Add a new customer success
+[INFO] 18-05-2023 21:30:24 [main] Log - Add a new customer success
+[INFO] 18-05-2023 21:30:26 [main] Log - Add a new customer success
+[INFO] 18-05-2023 21:30:28 [main] Log - Delete customer
+[INFO] 18-05-2023 21:30:30 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (555c944b82bb73a6b4dd57b10dc0a314)
+[INFO] 19-06-2023 20:38:04 [main] Log - Add a new customer success
+[INFO] 19-06-2023 20:38:10 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (69d0b1113205693e83acc79f99472409)
+[INFO] 19-06-2023 20:38:18 [main] Log - Add a new customer success
+[INFO] 19-06-2023 20:38:20 [main] Log - Add a new customer success
+[INFO] 19-06-2023 20:38:25 [main] Log - Add a new customer success
+[INFO] 19-06-2023 20:38:27 [main] Log - Add a new customer success
+[INFO] 19-06-2023 20:38:27 [main] Log - Delete customer
+[INFO] 19-06-2023 20:38:29 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (ab17568fd35ed9eaef9feb44855c5017)
+[INFO] 19-06-2023 20:38:36 [main] Log - Delete customer
+[INFO] 19-06-2023 20:38:38 [main] Log - Delete customer
+[INFO] 19-06-2023 20:38:40 [main] Log - Delete customer
+[INFO] 19-06-2023 20:38:42 [main] Log - Delete customer
+[INFO] 19-06-2023 20:38:44 [main] Log - Delete customer
+[INFO] 19-06-2023 21:25:34 [main] Log - Login success
+[INFO] 19-06-2023 21:25:34 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:25:34 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:25:34 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:27:29 [main] Log - Login success
+[INFO] 19-06-2023 21:27:29 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:27:29 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:27:29 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:30:44 [main] Log - Login success
+[INFO] 19-06-2023 21:30:44 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:30:44 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:30:44 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:31:25 [main] Log - Login success
+[INFO] 19-06-2023 21:31:28 [main] Log - Login success
+[INFO] 19-06-2023 21:31:33 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:31:34 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:31:36 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:31:37 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:31:38 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:32:30 [main] Log - Login success
+[INFO] 19-06-2023 21:32:31 [main] Log - Login success
+[INFO] 19-06-2023 21:32:35 [main] Log - Login success
+[INFO] 19-06-2023 21:32:37 [main] Log - Login success
+[INFO] 19-06-2023 21:32:58 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:33:00 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:33:05 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:33:06 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:33:27 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:33:28 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:33:33 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:33:34 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:33:35 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:33:36 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:33:40 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:33:42 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:41:09 [main] Log - Login success
+[INFO] 19-06-2023 21:41:10 [main] Log - Login success
+[INFO] 19-06-2023 21:41:14 [main] Log - Login success
+[INFO] 19-06-2023 21:41:16 [main] Log - Login success
+[INFO] 19-06-2023 21:46:34 [main] Log - Login success
+[INFO] 19-06-2023 21:46:34 [main] Log - Login success
+[INFO] 19-06-2023 21:46:39 [main] Log - Login success
+[INFO] 19-06-2023 21:46:41 [main] Log - Login success
+[INFO] 19-06-2023 21:46:42 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:46:43 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:46:47 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:46:48 [main] Log - Login fails with email incorrect format
+[INFO] 19-06-2023 21:46:50 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:46:50 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:46:54 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:46:55 [main] Log - Login fails with email incorrect format 2
+[INFO] 19-06-2023 21:46:57 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:46:57 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:47:01 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:47:03 [main] Log - Login fails with an incorrect password
+[INFO] 19-06-2023 21:50:02 [main] Log - Login success
+[INFO] 19-06-2023 21:50:03 [main] Log - Login success
+[INFO] 19-06-2023 21:50:07 [main] Log - Login success
+[INFO] 19-06-2023 21:50:09 [main] Log - Login success
+[INFO] 19-06-2023 21:50:11 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:00:54 [main] Log - Login success
+[INFO] 19-06-2023 22:00:54 [main] Log - Login success
+[INFO] 19-06-2023 22:00:59 [main] Log - Login success
+[INFO] 19-06-2023 22:01:01 [main] Log - Login success
+[INFO] 19-06-2023 22:01:03 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:01:03 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:01:08 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:01:08 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:13:07 [main] Log - Login success
+[INFO] 19-06-2023 22:13:08 [main] Log - Login success
+[INFO] 19-06-2023 22:13:12 [main] Log - Login success
+[INFO] 19-06-2023 22:13:14 [main] Log - Login success
+[INFO] 19-06-2023 22:13:16 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:13:16 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:13:21 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:13:21 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:13:35 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:14:00 [main] Log - Login success
+[INFO] 19-06-2023 22:14:00 [main] Log - Login success
+[INFO] 19-06-2023 22:14:05 [main] Log - Login success
+[INFO] 19-06-2023 22:14:07 [main] Log - Login success
+[INFO] 19-06-2023 22:14:08 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:14:09 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:14:14 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:14:15 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:14:15 [main] Log - Invalid Login
+[INFO] 19-06-2023 22:17:07 [main] Log - Add new Category
+[INFO] 19-06-2023 22:17:15 [main] Log - Add new Category
