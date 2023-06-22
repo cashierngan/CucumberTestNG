@@ -8,8 +8,8 @@ import org.openqa.selenium.By;
 public class CustomersPage {
     public static By menuCustomers = By.xpath("//span[normalize-space()='Customers']");
     public static By titleCustomers = By.xpath("//span[normalize-space()='Customers Summary']");
-    private By buttonNewCustomers = By.xpath("//a[normalize-space()='New Customer']");
-    private By inputCompany = By.xpath("//input[@id='company']");
+    public static By buttonNewCustomers = By.xpath("//a[normalize-space()='New Customer']");
+    public static By inputCompany = By.xpath("//input[@id='company']");
     private By inputPhone = By.xpath("//input[@id='phonenumber']");
     private By inputWebsite = By.xpath("//input[@id='website']");
     public static By buttonSave = By.xpath("//button[@class='btn btn-primary only-save customer-form-submiter']");
@@ -18,6 +18,7 @@ public class CustomersPage {
     private By profileScreen = By.xpath("//h4[normalize-space()='Profile']");
     public static By searchCustomer = By.xpath("//input[@class='form-control input-sm']");
     public static String companyName;
+    public static By VATNumber = By.xpath("//input[@id='vat']");
     public void addCustomerSuccess(String company, String phone, String website){
         String randomString = RandomStringUtils.randomAlphabetic(7);
         WebUI.clickElement(buttonNewCustomers);
@@ -26,6 +27,10 @@ public class CustomersPage {
         WebUI.setTextEnter(inputWebsite,website);
         companyName = DriverManager.getDriver().findElement(By.xpath("//input[@id='company']")).getAttribute("value");
         System.out.println(companyName);
+    }
+
+    public void validateCustomer(String company, String phone, String website){
+
     }
 
     public void verifyNewCustomer(String phone, String website){
