@@ -512,3 +512,121 @@
 [INFO] 22-06-2023 22:25:06 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (515c965debf2a20bff22c3d4a690a3ea)
 [INFO] 22-06-2023 22:25:16 [main] Log - Validation add customers
 [INFO] 22-06-2023 22:25:18 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:16:56 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:17:00 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (3aeb7e3ea56658cb9054f30cddf228e9)
+[INFO] 27-06-2023 21:17:09 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:17:10 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:19:51 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:19:53 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (9bd8d7cba46f0be4b3e39c7d02169bb5)
+[INFO] 27-06-2023 21:20:00 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:20:01 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:23:26 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:23:27 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (b47a7153d1ba643ec2546f8a4c98a4be)
+[INFO] 27-06-2023 21:23:34 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:23:36 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:24:03 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:24:05 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (8f47769198bca08ff113911b64b6e693)
+[INFO] 27-06-2023 21:24:12 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:24:13 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:25:37 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:25:39 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (83b8775668d3fa62b82fab078245aa06)
+[INFO] 27-06-2023 21:25:46 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:25:48 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:26:44 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:26:46 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (b607f671a31408b3e62b99d8480644b4)
+[INFO] 27-06-2023 21:26:53 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:26:54 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:27:30 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:27:32 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (cd81f0c7f65d0ce94f68b59fd814f6fe)
+[INFO] 27-06-2023 21:27:39 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:27:41 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:30:08 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:30:10 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (f3ce9c41b31fce756f77df9d3aa2efc9)
+[INFO] 27-06-2023 21:30:17 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:30:19 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:31:38 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:31:40 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (fc3796873dd050431f484da3a04dafe6)
+[INFO] 27-06-2023 21:31:47 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:31:48 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:34:04 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:34:06 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (8929bcc9771739369ab0711639fb05c3)
+[INFO] 27-06-2023 21:34:13 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:34:14 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:35:34 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:35:36 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (2503aa4968af578a6780f55e0fc9291f)
+[INFO] 27-06-2023 21:35:43 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:35:45 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:37:10 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:37:11 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0bce1f0f7d8d938e795a879f72dd58f0)
+[INFO] 27-06-2023 21:37:18 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:37:20 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:38:58 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:39:00 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (d7e1f8c33745f95c4a659e6450a2b3bd)
+[INFO] 27-06-2023 21:39:07 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:39:08 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:41:02 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:41:04 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (c8167582bc559756f4fe964f68cc2cd7)
+[INFO] 27-06-2023 21:41:11 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:41:12 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:42:28 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:42:29 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0a6e4011467c8676e6175c48971ccb6e)
+[INFO] 27-06-2023 21:42:36 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:42:38 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:44:31 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:44:33 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (4bab5e0dbf90340ce10c8eddb80df358)
+[INFO] 27-06-2023 21:44:40 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:44:41 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:45:40 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:45:42 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (1f03f8f54550b58cc190d3a51ba5fb00)
+[INFO] 27-06-2023 21:45:49 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:45:50 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:47:02 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:47:04 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (b40bbda7759624df44bc640607ec1ed3)
+[INFO] 27-06-2023 21:47:11 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:47:12 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:47:39 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:47:41 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (00614f48ad08142c279f47bc6e66f731)
+[INFO] 27-06-2023 21:47:48 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:47:49 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:50:45 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:50:47 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (aa6101f72b76302836dcd466129bc0f0)
+[INFO] 27-06-2023 21:50:54 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:50:55 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:51:58 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:52:00 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (44a05d4348044a9541be648c74b0ffb1)
+[INFO] 27-06-2023 21:52:06 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:52:08 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:53:14 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:53:16 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (114eee9d2b1c3474ca07727b804456b7)
+[INFO] 27-06-2023 21:56:28 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:56:29 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (3a0fa0ea4a9d6b3682ff787232bce3be)
+[INFO] 27-06-2023 21:56:36 [main] Log - Validation add customers
+[INFO] 27-06-2023 21:56:38 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:01:14 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:01:16 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (85ee8832c0dc02c45104005a55a63d87)
+[INFO] 27-06-2023 22:01:23 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:02:51 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:02:53 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (a0719bd434a4463f445d56fc4195da7c)
+[INFO] 27-06-2023 22:03:00 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:03:03 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:04:49 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:04:50 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (1119ccb145905af8cb4a97108b01fa7b)
+[INFO] 27-06-2023 22:04:57 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:05:02 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:15:15 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:15:17 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (73a1fa64dc6524d781b99390a8b6b15f)
+[INFO] 27-06-2023 22:15:24 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:15:27 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:21:09 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:21:11 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (5769ba246c012e6e1b813b5709716ddf)
+[INFO] 27-06-2023 22:21:18 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:21:21 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:22:30 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:25:53 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:25:55 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (70392b6b9824bed58bf40d072c5a225f)
+[INFO] 27-06-2023 22:26:02 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:26:05 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:28:37 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:28:39 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (146f9eb374908f512f6fe97e81033fa8)
+[INFO] 27-06-2023 22:28:46 [main] Log - Validation add customers
+[INFO] 27-06-2023 22:28:49 [main] Log - Validation add customers

@@ -18,11 +18,11 @@ Feature: Add customers to the CRM page
  # Sử dụng data table
   @InvalidAddCustomers
   Scenario: Validation add customers
-    Given user has access to the Customer page
-    When user entes  invalid credentials to add customers
-      | Company      | VAT Number | Phone     | Website       | Group  | Currency | Default Language | Address                            | City | State  | ZipCode | Country |
-      |   [blank]    | 3x389220AD | 098863731 | anhtester.com | Silver | USD      | German           | 1172A, Đường số 1, Tân Phú, Quận 7 | HCM  | Quận 7 | 056X    | VietNam |
-      | Cucumber2023 | 3x389220AD | 098863731 | anhtester.com | Silver | USD      | German           | 1172A, Đường số 1, Tân Phú, Quận 7 | HCM  | Quận 7 | 056X    | VietNam |
+    Given user has access to the add Customer page
+    When user enter  invalid credentials to add customers
+      | Company      | Phone     | Website       | Groups | Currency | Default Language | Address                            | City | State   | ZipCode | Country |
+      | [blank]      | 098863731 | anhtester.com | Silver | USD      | French           | 1172A, Đường số 1, Tân Phú, Quận 7 | HCM  | Quận 7  | 056X    | VietNam |
+      | Cucumber2023 | 098863731 | anhtester.com | VIP    | VNĐ      | Indonesia        | 83 Tổng Lung                       | HCM  | Quận 11 | 0987X   | VietNam |
 
     Then user should see an error message
 

@@ -57,12 +57,12 @@ public class StepsLoginCMS {
 
     @Then("user should see an error message")
     public void userShouldSeeAnErrorMessage() {
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//div[contains(text(),'Invalid email or password')]"), "Error message is NOT displayed");
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//div[text() = ' already exists, if you still want to create the customer you can ignore this message.']"), "Error message is NOT displayed");
     }
 
     @And("stay on the login page")
     public void stayOnTheLoginPage() {
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//h1[normalize-space()='Login']"), "Login page is NOT displayed");
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//div[text() = ' already exists, if you still want to create the customer you can ignore this message.']"), "Login page is NOT displayed");
 
     }
 

@@ -14,11 +14,11 @@ import org.openqa.selenium.By;
 import nganxd.pages.CustomersPage;
 import nganxd.pages.LoginCRMPage;
 
+import java.nio.file.WatchEvent;
 import java.util.List;
 import java.util.Map;
 
-import static nganxd.pages.CustomersPage.companyName;
-import static nganxd.pages.CustomersPage.searchCustomer;
+import static nganxd.pages.CustomersPage.*;
 
 public class StepCustomers {
     TestContext testContext;
@@ -35,10 +35,11 @@ public class StepCustomers {
         loginCRMPage = testContext.getLoginCRMPage();
     }
 
-    @Given("user has access to the Customer page")
+    @Given("user has access to the add Customer page")
     public void userHasAccessToTheCustomerPage() {
         WebUI.clickElement(CustomersPage.menuCustomers);
         WebUI.waitForElementVisible(CustomersPage.titleCustomers);
+        WebUI.clickElement(buttonNewCustomers);
     }
 
     @When("user has finished entering Company {string}, Phone {string}, Website {string} the customer information")
@@ -84,13 +85,12 @@ public class StepCustomers {
 
     }
 
-    @When("user entes  invalid credentials to add customers")
+    @When("user enter  invalid credentials to add customers")
     public void userEntesInvalidCredentialsToAddCustomers(DataTable dataTable) {
         List < Map < String, String >> items = dataTable.asMaps();
 
         for (Map < String, String > item: items){
             String company = item.get("Company");
-            String VATNumber = item.get("VAT Number");
             String phone = item.get("Phone");
             String website = item.get("Website");
             String group = item.get("Groups");
@@ -102,12 +102,25 @@ public class StepCustomers {
             String zipCode = item.get("ZipCode");
             String country = item.get("Country");
 
-            WebUI.clickElement(CustomersPage.menuCustomers);
-            WebUI.waitForElementVisible(CustomersPage.titleCustomers);
-            WebUI.clickElement(CustomersPage.buttonNewCustomers);
-            WebUI.setTextEnter(CustomersPage.inputCompany, company);
-            WebUI.sleep(5);
-            WebUI.setTextEnter(CustomersPage.VATNumber,VATNumber);
+
+            WebUI.setText(inputCompany, company);
+            WebUI.setText(inputVAT,RandomStringUtils.randomAlphabetic(10));
+            WebUI.setText(inputPhone,phone);
+            WebUI.setText(inputWebsite,website);
+            WebUI.clickElement(selectGroup);
+            WebUI.setTextEnter(inputGroup,group);
+            WebUI.pressESC();
+            WebUI.clickElement(selectCurrency);
+            WebUI.setTextEnter(inputCurrency,currency);
+            WebUI.clickElement(selectLanguage);
+            WebUI.clickElement(By.xpath("//span[contains(text(),'" + defaultLanguage + "')]"));
+            WebUI.setText(inputAddress,address);
+            WebUI.setText(inputCity,city);
+            WebUI.setText(inputState,state);
+            WebUI.setText(inputZip,zipCode);
+            WebUI.clickElement(selectCountry);
+            WebUI.setTextEnter(inputCountry, country);
+            WebUI.clickElement(buttonSave);
             WebUI.sleep(5);
 //            WebUI.setTextEnter(inputWebsite,website);
 //            companyName = DriverManager.getDriver().findElement(By.xpath("//input[@id='company']")).getAttribute("value");
