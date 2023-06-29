@@ -630,3 +630,59 @@
 [INFO] 27-06-2023 22:28:39 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (146f9eb374908f512f6fe97e81033fa8)
 [INFO] 27-06-2023 22:28:46 [main] Log - Validation add customers
 [INFO] 27-06-2023 22:28:49 [main] Log - Validation add customers
+[INFO] 29-06-2023 20:43:00 [main] Log - Validation add customers
+[INFO] 29-06-2023 20:43:03 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (77344cfbbe7de5e5b4b1a75b25eff2a1)
+[INFO] 29-06-2023 20:43:12 [main] Log - Validation add customers
+[INFO] 29-06-2023 20:43:14 [main] Log - Validation add customers
+[INFO] 29-06-2023 20:47:43 [main] Log - Validation add customers
+[INFO] 29-06-2023 20:47:45 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (f8b7a23dd8f75349b6857e86dee6b594)
+[INFO] 29-06-2023 20:47:53 [main] Log - Validation add customers
+[INFO] 29-06-2023 20:47:56 [main] Log - Validation add customers
+[INFO] 29-06-2023 20:48:29 [main] Log - Validation add customers
+[INFO] 29-06-2023 21:53:16 [main] Log - Validation add customers
+[INFO] 29-06-2023 21:53:20 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (207fe87ccbb0f570fcd316b6727be02d)
+[INFO] 29-06-2023 21:53:27 [main] Log - Validation add customers
+[INFO] 29-06-2023 21:53:30 [main] Log - Validation add customers
+[INFO] 29-06-2023 21:54:00 [main] Log - Validation add customers
+[INFO] 29-06-2023 21:54:02 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0557cd10bebca808bb1214b5146e6b21)
+[INFO] 29-06-2023 21:54:09 [main] Log - Validation add customers
+[INFO] 29-06-2023 21:54:11 [main] Log - Validation add customers
+[INFO] 29-06-2023 22:11:03 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:11:05 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (df9065083678cd2f207e2b17abbda8ac)
+[INFO] 29-06-2023 22:11:12 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:11:15 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:12:42 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:12:44 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (906fed9968e1af1d33c6e10efce284cc)
+[INFO] 29-06-2023 22:12:51 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:12:53 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:14:22 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:14:24 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (11b0e77b5b799f1a850d7af9d3dbd3fd)
+[INFO] 29-06-2023 22:16:06 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:16:08 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (2847bf39f60d421ec661c2cda52b9bc4)
+[INFO] 29-06-2023 22:16:15 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:16:16 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:17:50 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:17:52 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (7420ff0ae5a436aedf61ed998b54f5e8)
+[INFO] 29-06-2023 22:17:59 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:18:00 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:18:58 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:19:00 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (05b65e6a81f23578c0afa57f12630055)
+[INFO] 29-06-2023 22:20:32 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:20:33 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (8dfe13548d724384192b0c4fbac89da5)
+[INFO] 29-06-2023 22:20:40 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:20:42 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:23:47 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:23:49 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (859893a18a782e8f07ceb94294e96903)
+[INFO] 29-06-2023 22:23:56 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:23:56 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:24:18 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:25:19 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:25:21 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (4b7454a9b335992959e8f2d39ebd75c0)
+[INFO] 29-06-2023 22:25:28 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:25:28 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:25:49 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:27:38 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:27:39 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (a2048c901539082cac00f5167875a337)
+[INFO] 29-06-2023 22:27:46 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:27:46 [main] Log - Edit customers successfully on the CRM page
+[INFO] 29-06-2023 22:28:08 [main] Log - Edit customers successfully on the CRM page

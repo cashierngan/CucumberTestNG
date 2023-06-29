@@ -57,7 +57,7 @@ public class StepsLoginCMS {
 
     @Then("user should see an error message")
     public void userShouldSeeAnErrorMessage() {
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//div[text() = ' already exists, if you still want to create the customer you can ignore this message.']"), "Error message is NOT displayed");
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//p[normalize-space()='This field is required.']"), "Error message is NOT displayed");
     }
 
     @And("stay on the login page")

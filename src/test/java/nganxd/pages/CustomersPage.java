@@ -31,6 +31,10 @@ public class CustomersPage {
     public static By inputZip = By.xpath("//input[@id='zip']");
     public static By selectCountry = By.xpath("//button[@aria-owns= 'bs-select-4']");
     public static By inputCountry = By.xpath("//div[@class='dropdown bootstrap-select bs3 dropup open']//input[@aria-label='Search']");
+    public static By buttonViewCustomer = By.xpath("(//a[contains(text(),'View')])[1]");
+    public static By messageEditCustomerSucess = By.xpath("//span[normalize-space()='Customer updated successfully.']");
+    public static By hoverCompanySearch = By.xpath("//td[@class='sorting_1']");
+
 
 
 

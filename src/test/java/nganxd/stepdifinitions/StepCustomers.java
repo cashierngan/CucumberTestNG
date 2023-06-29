@@ -14,7 +14,6 @@ import org.openqa.selenium.By;
 import nganxd.pages.CustomersPage;
 import nganxd.pages.LoginCRMPage;
 
-import java.nio.file.WatchEvent;
 import java.util.List;
 import java.util.Map;
 
@@ -29,14 +28,15 @@ public class StepCustomers {
     public String listOfStringListsType(String cell) {
         return cell;
     }
-    public StepCustomers(TestContext testContext){
+
+    public StepCustomers(TestContext testContext) {
         this.testContext = testContext;
         customersPage = testContext.getCustomersPage();
         loginCRMPage = testContext.getLoginCRMPage();
     }
 
     @Given("user has access to the add Customer page")
-    public void userHasAccessToTheCustomerPage() {
+    public void userHasAccessToTheAddCustomerPage() {
         WebUI.clickElement(CustomersPage.menuCustomers);
         WebUI.waitForElementVisible(CustomersPage.titleCustomers);
         WebUI.clickElement(buttonNewCustomers);
@@ -45,7 +45,7 @@ public class StepCustomers {
     @When("user has finished entering Company {string}, Phone {string}, Website {string} the customer information")
     public void userHasFinishedEnteringCompanyPhoneWebsiteTheCustomerInformation(String company, String phone, String website) {
         customersPage = new CustomersPage();
-        customersPage.addCustomerSuccess(company,phone,website);
+        customersPage.addCustomerSuccess(company, phone, website);
     }
 
     @And("user click on the Save button")
@@ -63,8 +63,11 @@ public class StepCustomers {
     }
 
     @When("user search for a new customer")
-    public void userSearchForCustomer() {
-        WebUI.setText(searchCustomer, companyName);
+    public void userSearchForCustomer(String company) {
+        WebUI.clickElement(CustomersPage.menuCustomers);
+        WebUI.waitForElementVisible(CustomersPage.titleCustomers);
+        WebUI.setTextEnter(searchCustomer, company);
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//a[normalize-space()='" + company + "']"), "New company does not exist");
     }
 
     @And("user click on Delete button at a new company")
@@ -85,11 +88,11 @@ public class StepCustomers {
 
     }
 
-    @When("user enter  invalid credentials to add customers")
+    @When("user enter invalid credentials to add customers")
     public void userEntesInvalidCredentialsToAddCustomers(DataTable dataTable) {
-        List < Map < String, String >> items = dataTable.asMaps();
+        List<Map<String, String>> items = dataTable.asMaps();
 
-        for (Map < String, String > item: items){
+        for (Map<String, String> item : items) {
             String company = item.get("Company");
             String phone = item.get("Phone");
             String website = item.get("Website");
@@ -104,27 +107,55 @@ public class StepCustomers {
 
 
             WebUI.setText(inputCompany, company);
-            WebUI.setText(inputVAT,RandomStringUtils.randomAlphabetic(10));
-            WebUI.setText(inputPhone,phone);
-            WebUI.setText(inputWebsite,website);
+            WebUI.setText(inputVAT, RandomStringUtils.randomAlphabetic(10));
+            WebUI.setText(inputPhone, phone);
+            WebUI.setText(inputWebsite, website);
             WebUI.clickElement(selectGroup);
-            WebUI.setTextEnter(inputGroup,group);
+            WebUI.setTextEnter(inputGroup, group);
             WebUI.pressESC();
             WebUI.clickElement(selectCurrency);
-            WebUI.setTextEnter(inputCurrency,currency);
+            WebUI.setTextEnter(inputCurrency, currency);
             WebUI.clickElement(selectLanguage);
             WebUI.clickElement(By.xpath("//span[contains(text(),'" + defaultLanguage + "')]"));
-            WebUI.setText(inputAddress,address);
-            WebUI.setText(inputCity,city);
-            WebUI.setText(inputState,state);
-            WebUI.setText(inputZip,zipCode);
+            WebUI.setText(inputAddress, address);
+            WebUI.setText(inputCity, city);
+            WebUI.setText(inputState, state);
+            WebUI.setText(inputZip, zipCode);
             WebUI.clickElement(selectCountry);
             WebUI.setTextEnter(inputCountry, country);
             WebUI.clickElement(buttonSave);
-            WebUI.sleep(5);
 //            WebUI.setTextEnter(inputWebsite,website);
 //            companyName = DriverManager.getDriver().findElement(By.xpath("//input[@id='company']")).getAttribute("value");
 //            System.out.println(companyName);
         }
+    }
+
+    @Given("user has access to the Customer page")
+    public void userHasAccessToTheCustomerPage() {
+    }
+
+    @When("users looking for customers to edit")
+    public void usersLookingForCustomersToEdit(DataTable dataTable) {
+        List<Map<String, String>> items = dataTable.asMaps();
+
+        for (Map<String, String> item : items) {
+            String company = item.get("Company");
+            String phone = item.get("Phone");
+
+            WebUI.clickElement(CustomersPage.menuCustomers);
+            WebUI.waitForElementVisible(CustomersPage.titleCustomers);
+
+            WebUI.setTextEnter(searchCustomer, company);
+            WebUI.hoverElement(hoverCompanySearch);
+            WebUI.clickElement(buttonViewCustomer);
+            WebUI.verifyAssertTrueIsDisplayed(By.xpath("//input[@value='" + company + "']"), "The company does not view it correctly");
+            WebUI.setText(inputPhone, phone );
+            WebUI.setText(inputWebsite, RandomStringUtils.randomAlphabetic(12) + ".com.vn" );
+            WebUI.clickElement(buttonSave);
+        }
+    }
+    @Then("user should see successful edit customer message")
+    public void userShouldSeeSuccessfulEditCustomerMessage() {
+        WebUI.verifyAssertTrueIsDisplayed(messageEditCustomerSucess, "Edit Customer is failed");
     }
 }
