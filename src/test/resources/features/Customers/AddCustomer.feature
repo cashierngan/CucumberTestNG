@@ -6,10 +6,10 @@ Feature: Add customers to the CRM page
 
   @AddCustomerSuccess
   Scenario Outline: Add a new customer success
-    Given user has access to the Customer page
+    Given user has access to the add Customer page
     When user has finished entering Company "<Company>", Phone "<Phone>", Website "<Website>" the customer information
     And user click on the Save button
-    Then A new customer with phone "<phone>", website "<website>" would be displayed
+    Then A new customer with phone "<Phone>", website "<Website>" would be displayed
     Examples:
       | Company | Phone      | Website         |
       | MoMo    | 0869905206 | https://momo.vn |

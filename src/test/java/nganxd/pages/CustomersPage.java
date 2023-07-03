@@ -41,12 +41,11 @@ public class CustomersPage {
 
     public void addCustomerSuccess(String company, String phone, String website){
         String randomString = RandomStringUtils.randomAlphabetic(7);
-        WebUI.clickElement(buttonNewCustomers);
+//        WebUI.clickElement(buttonNewCustomers);
         WebUI.setTextEnter(inputCompany,company + " " + randomString);
         WebUI.setTextEnter(inputPhone,phone);
         WebUI.setTextEnter(inputWebsite,website);
         companyName = DriverManager.getDriver().findElement(By.xpath("//input[@id='company']")).getAttribute("value");
-        System.out.println(companyName);
     }
 
 

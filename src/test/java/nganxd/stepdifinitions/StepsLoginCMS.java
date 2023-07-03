@@ -6,24 +6,31 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import nganxd.helper.ExcelHelpers;
+import nganxd.helper.PropertiesHelper;
+import nganxd.hooks.TestContext;
 import nganxd.util.WebUI;
 import nganxd.pages.LoginCMSPage;
 import nganxd.pages.LoginPage;
 import org.openqa.selenium.By;
+import nganxd.drivers.DriverManager;
 
 import static nganxd.constants.constantGlobal.URL;
 
 public class StepsLoginCMS {
-    public LoginPage loginPage;
+    TestContext testContext;
+    LoginPage loginPage;
     LoginCMSPage loginCMSPage;
-    ExcelHelpers excelHelpers;
+    public StepsLoginCMS(TestContext testContext){
+        this.testContext = testContext;
+        loginPage = testContext.getLoginPage();
+        loginCMSPage = testContext.getLoginCMSPage();
+    }
     @Given("user navigation to Login page {string}")
-    public void navigationToLoginPage(String arg0) {
-        WebUI.openURL(URL);
+    public void navigationToLoginPage(String CMSPage) {
+        WebUI.openURL(CMSPage);
     }
     @When("user enter email {string} and password {string}")
     public void enterEmailAndPassword(String email, String password) {
-        loginPage = new LoginPage();
         loginPage.enterEmailAndPassword(email, password);
     }
 
@@ -57,12 +64,12 @@ public class StepsLoginCMS {
 
     @Then("user should see an error message")
     public void userShouldSeeAnErrorMessage() {
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//p[normalize-space()='This field is required.']"), "Error message is NOT displayed");
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//div[normalize-space()='Invalid email or password' and @class = 'text-center alert alert-danger']"), "Error message is NOT displayed");
     }
 
     @And("stay on the login page")
     public void stayOnTheLoginPage() {
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//div[text() = ' already exists, if you still want to create the customer you can ignore this message.']"), "Login page is NOT displayed");
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//h1[normalize-space()='Login']"), "Login page is NOT displayed");
 
     }
 

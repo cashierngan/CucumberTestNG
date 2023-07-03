@@ -686,3 +686,379 @@
 [INFO] 29-06-2023 22:27:46 [main] Log - Edit customers successfully on the CRM page
 [INFO] 29-06-2023 22:27:46 [main] Log - Edit customers successfully on the CRM page
 [INFO] 29-06-2023 22:28:08 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 12:12:47 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 12:12:51 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (254de7d75bbdaea00d26b236987f27d2)
+[INFO] 03-07-2023 12:12:59 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 12:12:59 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 14:53:17 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 14:53:20 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (dba64a2637e6e21ebcab54e039cabe3e)
+[INFO] 03-07-2023 14:53:27 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 14:53:27 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 14:53:49 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:26:39 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:26:42 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (8344a861961dbf0040ffb76d8bd70795)
+[INFO] 03-07-2023 15:26:49 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:26:49 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:27:11 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:34:23 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:34:26 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (6a11a0a6d6c9366b974bcf2f61fe7172)
+[INFO] 03-07-2023 15:34:33 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:34:33 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:34:54 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:36:45 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:36:47 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (7aad4b0a3cc7967fe06122c061b26566)
+[INFO] 03-07-2023 15:36:54 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:36:54 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:37:15 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:37:15 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (72e4edbdf7f06f09f90a9a5dc38e0f3e)
+[INFO] 03-07-2023 15:37:22 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:37:25 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:37:53 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:37:53 [main] Log - Delete customer
+[INFO] 03-07-2023 15:37:54 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (5e908f7b4405b149de85458640baa769)
+[INFO] 03-07-2023 15:38:01 [main] Log - Delete customer
+[INFO] 03-07-2023 15:38:01 [main] Log - Delete customer
+[INFO] 03-07-2023 15:38:01 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:38:02 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (3800bb97b9bd54b8f0c6a159f5ba95e2)
+[INFO] 03-07-2023 15:38:09 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:38:09 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:38:30 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:42:25 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:42:27 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (5984b70932f998b58ec9d02ab771501c)
+[INFO] 03-07-2023 15:42:34 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:42:34 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:44:49 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:44:52 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (6d923b9617aa932559cc20c6f2242ae8)
+[INFO] 03-07-2023 15:44:59 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:45:01 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:45:05 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:45:06 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:45:28 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:45:29 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (569c5b34e551b150c55cc25565bd6ff4)
+[INFO] 03-07-2023 15:45:35 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:45:38 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:46:07 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:46:07 [main] Log - Delete customer
+[INFO] 03-07-2023 15:46:08 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (fe7f2a6dc3e942b90533aabd860343fb)
+[INFO] 03-07-2023 15:46:14 [main] Log - Delete customer
+[INFO] 03-07-2023 15:46:17 [main] Log - Delete customer
+[INFO] 03-07-2023 15:46:18 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 15:46:19 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (6178172f078324f183c42ae6a3dd94fa)
+[INFO] 03-07-2023 15:48:19 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:48:22 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (55ec4af37d18d79e7c721253366825d2)
+[INFO] 03-07-2023 15:48:29 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:48:32 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:48:35 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:48:37 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:48:58 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:48:58 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (a7fa6dc035cc8d572d0f152caf0e4f26)
+[INFO] 03-07-2023 15:52:37 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:52:40 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (dd1ef37ec2018506b74b0254ff461aba)
+[INFO] 03-07-2023 15:52:46 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:52:49 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:52:53 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:52:54 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:53:15 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:53:16 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (e04e462bc1529cd8f2dfcf3b50b6b981)
+[INFO] 03-07-2023 15:55:00 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:55:03 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (61e4a11ffdb1e1ee10db0143f2bf07c0)
+[INFO] 03-07-2023 15:55:10 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:55:13 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:55:16 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:55:18 [main] Log - Add a new customer success
+[INFO] 03-07-2023 15:55:19 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:55:20 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (e00ea7d531e65f34e995e8076dd7b45a)
+[INFO] 03-07-2023 15:55:26 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:55:29 [main] Log - Validation add customers
+[INFO] 03-07-2023 15:55:57 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:00:14 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:00:16 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0f8442e5be8c56e6ee9b567c8107d114)
+[INFO] 03-07-2023 16:00:23 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:00:26 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:00:29 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:00:31 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:00:32 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:00:32 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (bfaa4429383dc5dfaa2739138b81b2a9)
+[INFO] 03-07-2023 16:00:39 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:00:42 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:01:10 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:01:39 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:01:41 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (ed690799ab4b675e9abeb6c10cf16c50)
+[INFO] 03-07-2023 16:01:47 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:01:50 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:01:54 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:01:55 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:01:56 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:01:57 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (66031a429d09960884e1431b90671601)
+[INFO] 03-07-2023 16:02:03 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:02:06 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:02:34 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:02:35 [main] Log - Delete customer
+[INFO] 03-07-2023 16:02:35 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (e2fead141194ed70ccc7c50ca19f7e53)
+[INFO] 03-07-2023 16:02:42 [main] Log - Delete customer
+[INFO] 03-07-2023 16:02:45 [main] Log - Delete customer
+[INFO] 03-07-2023 16:02:45 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:02:46 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (9cfc97a7cdce5af49ba7894e1d7d3f35)
+[INFO] 03-07-2023 16:02:53 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:02:53 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:03:14 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:06:12 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:06:15 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (4470ea48d9e91e97e5ffc4c3a9f1ebe8)
+[INFO] 03-07-2023 16:06:23 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:06:25 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:06:29 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:06:31 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:06:31 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:06:32 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (327631d6ae0de3516d96b998b2ceef6d)
+[INFO] 03-07-2023 16:06:39 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:06:42 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:07:10 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:07:10 [main] Log - Delete customer
+[INFO] 03-07-2023 16:07:11 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0bb523de5ca0b82ca465bf7e328fa1d9)
+[INFO] 03-07-2023 16:07:18 [main] Log - Delete customer
+[INFO] 03-07-2023 16:07:21 [main] Log - Delete customer
+[INFO] 03-07-2023 16:07:25 [main] Log - Delete customer
+[INFO] 03-07-2023 16:07:26 [main] Log - Delete customer
+[INFO] 03-07-2023 16:07:28 [main] Log - Delete customer
+[INFO] 03-07-2023 16:07:29 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:07:30 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (1446d64cef6498f89e14b366023b067e)
+[INFO] 03-07-2023 16:07:37 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:07:37 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:07:58 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:08:55 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:08:57 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (15256dfdf570ace9bde4663899b9f502)
+[INFO] 03-07-2023 16:09:04 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:09:06 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:09:10 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:09:11 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:09:12 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:09:13 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (6998389f759f679a0e1f836d125a496a)
+[INFO] 03-07-2023 16:09:20 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:09:23 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:09:51 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:09:51 [main] Log - Delete customer
+[INFO] 03-07-2023 16:09:52 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (7085259766bca5111d7f8fd8802ce53a)
+[INFO] 03-07-2023 16:09:59 [main] Log - Delete customer
+[INFO] 03-07-2023 16:10:00 [main] Log - Delete customer
+[INFO] 03-07-2023 16:10:04 [main] Log - Delete customer
+[INFO] 03-07-2023 16:10:05 [main] Log - Delete customer
+[INFO] 03-07-2023 16:10:07 [main] Log - Delete customer
+[INFO] 03-07-2023 16:10:09 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:10:10 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (3e370b6624ceb06ccb0e417eb7a82f4e)
+[INFO] 03-07-2023 16:10:17 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:10:19 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:10:40 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:18:03 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:18:06 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (4a94f681a83f61e2766f218127339b37)
+[INFO] 03-07-2023 16:18:13 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:18:16 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:18:19 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:18:20 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:18:21 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:18:22 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (05c4126cc02ffc0b090f5d33573b1fee)
+[INFO] 03-07-2023 16:18:28 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:18:31 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:18:59 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:19:00 [main] Log - Delete customer
+[INFO] 03-07-2023 16:19:00 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (e4d369c500a0ebb0a4e7f5301b8d0350)
+[INFO] 03-07-2023 16:19:07 [main] Log - Delete customer
+[INFO] 03-07-2023 16:19:08 [main] Log - Delete customer
+[INFO] 03-07-2023 16:19:12 [main] Log - Delete customer
+[INFO] 03-07-2023 16:19:14 [main] Log - Delete customer
+[INFO] 03-07-2023 16:19:16 [main] Log - Delete customer
+[INFO] 03-07-2023 16:19:17 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:19:18 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (544c51c9c62c06ee2fc330bd8d419bcf)
+[INFO] 03-07-2023 16:19:25 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:19:26 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:19:47 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:20:33 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:20:36 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (ae753602e24f4f1b2198ab50245b23fc)
+[INFO] 03-07-2023 16:20:43 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:20:46 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:20:49 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:20:51 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:20:52 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:20:53 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (dfc535b8fce9ee4e27cfde4a0cc79f2f)
+[INFO] 03-07-2023 16:21:00 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:21:02 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:21:31 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:21:31 [main] Log - Delete customer
+[INFO] 03-07-2023 16:21:32 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (cecaec94853c223bfe724b60b266c2ac)
+[INFO] 03-07-2023 16:21:38 [main] Log - Delete customer
+[INFO] 03-07-2023 16:21:40 [main] Log - Delete customer
+[INFO] 03-07-2023 16:21:44 [main] Log - Delete customer
+[INFO] 03-07-2023 16:21:45 [main] Log - Delete customer
+[INFO] 03-07-2023 16:21:47 [main] Log - Delete customer
+[INFO] 03-07-2023 16:21:49 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:21:49 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (6454aa1e5d0f4e04e818bc6866b484ad)
+[INFO] 03-07-2023 16:21:56 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:21:57 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:22:18 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:26:23 [main] Log - Login success
+[INFO] 03-07-2023 16:26:23 [main] Log - Invalid Login
+[INFO] 03-07-2023 16:28:42 [main] Log - Login success
+[INFO] 03-07-2023 16:28:42 [main] Log - Invalid Login
+[INFO] 03-07-2023 16:28:58 [main] Log - Login success
+[INFO] 03-07-2023 16:28:58 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 16:28:58 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 16:28:58 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 16:40:05 [main] Log - Login success
+[INFO] 03-07-2023 16:40:05 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 16:40:05 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 16:40:05 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 16:41:26 [main] Log - Login success
+[INFO] 03-07-2023 16:41:27 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 16:41:27 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 16:41:27 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 16:42:48 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:42:50 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (c3824a0a32d843472215a05e43ca90d8)
+[INFO] 03-07-2023 16:42:57 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:43:00 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:43:03 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:43:05 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:43:06 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:43:07 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (70ce1e2dc9b351f1ad8691ab769e08a2)
+[INFO] 03-07-2023 16:43:13 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:43:16 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:43:44 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:43:45 [main] Log - Delete customer
+[INFO] 03-07-2023 16:43:45 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (70b380e915879aca2b54c87048dc3cd0)
+[INFO] 03-07-2023 16:43:52 [main] Log - Delete customer
+[INFO] 03-07-2023 16:43:53 [main] Log - Delete customer
+[INFO] 03-07-2023 16:43:57 [main] Log - Delete customer
+[INFO] 03-07-2023 16:43:59 [main] Log - Delete customer
+[INFO] 03-07-2023 16:44:01 [main] Log - Delete customer
+[INFO] 03-07-2023 16:44:02 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:44:03 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (5cff350ebc335f41640d9802da154ee0)
+[INFO] 03-07-2023 16:44:09 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:44:11 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:44:32 [main] Log - Edit customers successfully on the CRM page
+[INFO] 03-07-2023 16:44:50 [main] Log - Login success
+[INFO] 03-07-2023 16:44:51 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 16:44:51 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 16:44:51 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 16:54:05 [main] Log - Login success
+[INFO] 03-07-2023 16:54:06 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 16:54:06 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 16:54:06 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 16:55:03 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:55:06 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (09d5b6b023ad60f701cff8706a059ef5)
+[INFO] 03-07-2023 16:56:33 [main] Log - Validation add customers
+[INFO] 03-07-2023 16:56:34 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (8449629f445aeaac368c7f3a2f72c586)
+[INFO] 03-07-2023 16:56:48 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:56:51 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (9fe761a67d6c8d834085f25312928b8f)
+[INFO] 03-07-2023 16:56:58 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:57:01 [main] Log - Add a new customer success
+[INFO] 03-07-2023 16:57:43 [main] Log - Login success
+[INFO] 03-07-2023 16:57:43 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:09:22 [main] Log - Login success
+[INFO] 03-07-2023 17:09:24 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (04909f40fd9429730d8ef8bddd9f1d54)
+[INFO] 03-07-2023 17:09:25 [main] Log - Login success
+[INFO] 03-07-2023 17:09:30 [main] Log - Login success
+[INFO] 03-07-2023 17:09:32 [main] Log - Login success
+[INFO] 03-07-2023 17:09:32 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:09:33 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (f271adb7826a406a7b5530e9ac058b9a)
+[INFO] 03-07-2023 17:09:33 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:09:38 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:09:39 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:10:32 [main] Log - Login success
+[INFO] 03-07-2023 17:10:34 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (ea9fecf20791731f4a08156378a05b7f)
+[INFO] 03-07-2023 17:10:35 [main] Log - Login success
+[INFO] 03-07-2023 17:10:39 [main] Log - Login success
+[INFO] 03-07-2023 17:10:41 [main] Log - Login success
+[INFO] 03-07-2023 17:10:42 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:10:43 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0bffc99fe497d24f4362d8a8473eaf94)
+[INFO] 03-07-2023 17:10:43 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:10:48 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:10:49 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:11:33 [main] Log - Login success
+[INFO] 03-07-2023 17:11:35 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0adca21f32937dacb925241efa033a66)
+[INFO] 03-07-2023 17:11:35 [main] Log - Login success
+[INFO] 03-07-2023 17:11:40 [main] Log - Login success
+[INFO] 03-07-2023 17:11:42 [main] Log - Login success
+[INFO] 03-07-2023 17:11:42 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:11:43 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (5a6ea0c76dbf0e7a9e4d3ecc8326b474)
+[INFO] 03-07-2023 17:11:44 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:11:49 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:11:50 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:14:29 [main] Log - Login success
+[INFO] 03-07-2023 17:14:31 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (09a4597b2219fe3194432d07094b3a11)
+[INFO] 03-07-2023 17:14:42 [main] Log - Login success
+[INFO] 03-07-2023 17:14:58 [main] Log - Login success
+[INFO] 03-07-2023 17:15:11 [main] Log - Login success
+[INFO] 03-07-2023 17:15:12 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:15:13 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (ff207635faaf28a7b3079ca4405bd9dd)
+[INFO] 03-07-2023 17:15:17 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:15:24 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:15:26 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:17:19 [main] Log - Login success
+[INFO] 03-07-2023 17:17:22 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (22218a56e36f8e8c438bd0cfeb27ed0b)
+[INFO] 03-07-2023 17:17:23 [main] Log - Login success
+[INFO] 03-07-2023 17:18:00 [main] Log - Login success
+[INFO] 03-07-2023 17:18:03 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (5cb7bfc6bb17c5882529f0fa2bfdfc52)
+[INFO] 03-07-2023 17:18:04 [main] Log - Login success
+[INFO] 03-07-2023 17:18:06 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:18:07 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (0463dcf30c5c847369a387f0ae9248fc)
+[INFO] 03-07-2023 17:18:08 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:19:11 [main] Log - Login success
+[INFO] 03-07-2023 17:19:14 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (830711e72190ded8a6e9ef5fccf5b0aa)
+[INFO] 03-07-2023 17:19:16 [main] Log - Login success
+[INFO] 03-07-2023 17:19:22 [main] Log - Login success
+[INFO] 03-07-2023 17:19:24 [main] Log - Login success
+[INFO] 03-07-2023 17:19:25 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:19:26 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (51e089d7999d2dacfbba8e313120816c)
+[INFO] 03-07-2023 17:19:28 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:19:33 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:19:35 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:21:12 [main] Log - Login success
+[INFO] 03-07-2023 17:21:14 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (521b9d5482cd96546439afe2f6e4bcdf)
+[INFO] 03-07-2023 17:21:17 [main] Log - Login success
+[INFO] 03-07-2023 17:21:22 [main] Log - Login success
+[INFO] 03-07-2023 17:21:24 [main] Log - Login success
+[INFO] 03-07-2023 17:21:24 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:21:25 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (8d42bee8a62777b198e71a2d78479830)
+[INFO] 03-07-2023 17:21:28 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:21:33 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:21:35 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:21:35 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:23:32 [main] Log - Login success
+[INFO] 03-07-2023 17:23:35 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (22f4691877962c5de4b587c9c042b700)
+[INFO] 03-07-2023 17:23:37 [main] Log - Login success
+[INFO] 03-07-2023 17:23:42 [main] Log - Login success
+[INFO] 03-07-2023 17:23:44 [main] Log - Login success
+[INFO] 03-07-2023 17:23:45 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:23:46 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (1b57c832b5b66a261f1d2d3ac5504fe1)
+[INFO] 03-07-2023 17:23:49 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:23:54 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:23:56 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:24:27 [main] Log - Login success
+[INFO] 03-07-2023 17:24:30 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (a6f4d0473758ae5e165194d5510bc8da)
+[INFO] 03-07-2023 17:24:33 [main] Log - Login success
+[INFO] 03-07-2023 17:24:39 [main] Log - Login success
+[INFO] 03-07-2023 17:24:42 [main] Log - Login success
+[INFO] 03-07-2023 17:24:42 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:24:43 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (af801952f70079cc3d6ea054d7c5799e)
+[INFO] 03-07-2023 17:24:46 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:24:51 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:24:52 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:24:52 [main] Log - Invalid Login
+[INFO] 03-07-2023 17:39:06 [main] Log - Login success
+[INFO] 03-07-2023 17:39:09 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (b5e54849847a4539d194513c35461f47)
+[INFO] 03-07-2023 17:39:10 [main] Log - Login success
+[INFO] 03-07-2023 17:39:15 [main] Log - Login success
+[INFO] 03-07-2023 17:39:17 [main] Log - Login success
+[INFO] 03-07-2023 17:39:17 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 17:39:18 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (5fae7379658e3a3f9f41aad8d8f14b1f)
+[INFO] 03-07-2023 17:39:19 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 17:39:23 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 17:39:25 [main] Log - Login fails with email incorrect format
+[INFO] 03-07-2023 17:39:25 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 17:39:26 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (218eed37e54339fcc8b9ec8de3134332)
+[INFO] 03-07-2023 17:39:26 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 17:39:31 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 17:39:32 [main] Log - Login fails with email incorrect format 2
+[INFO] 03-07-2023 17:39:32 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 17:39:33 [main] Log - Driver in TestContext: ChromeDriver: chrome on windows (aa57c50e0e2cb7bf096710618faca8ca)
+[INFO] 03-07-2023 17:39:33 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 17:39:38 [main] Log - Login fails with an incorrect password
+[INFO] 03-07-2023 17:39:39 [main] Log - Login fails with an incorrect password

@@ -63,11 +63,11 @@ public class StepCustomers {
     }
 
     @When("user search for a new customer")
-    public void userSearchForCustomer(String company) {
+    public void userSearchForCustomer() {
         WebUI.clickElement(CustomersPage.menuCustomers);
         WebUI.waitForElementVisible(CustomersPage.titleCustomers);
-        WebUI.setTextEnter(searchCustomer, company);
-        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//a[normalize-space()='" + company + "']"), "New company does not exist");
+        WebUI.setTextEnter(searchCustomer, companyName);
+        WebUI.verifyAssertTrueIsDisplayed(By.xpath("//a[normalize-space()='" + companyName + "']"), "New company does not exist");
     }
 
     @And("user click on Delete button at a new company")
@@ -132,6 +132,8 @@ public class StepCustomers {
 
     @Given("user has access to the Customer page")
     public void userHasAccessToTheCustomerPage() {
+        WebUI.clickElement(CustomersPage.menuCustomers);
+        WebUI.waitForElementVisible(CustomersPage.titleCustomers);
     }
 
     @When("users looking for customers to edit")

@@ -6,12 +6,25 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import nganxd.drivers.DriverManager;
 import nganxd.helper.PropertiesHelper;
+import nganxd.hooks.TestContext;
+import nganxd.pages.LoginCMSPage;
+import nganxd.pages.LoginCRMPage;
+import nganxd.pages.LoginPage;
 import nganxd.util.WebUI;
 import org.openqa.selenium.By;
+import nganxd.drivers.DriverManager;
 
 import static nganxd.constants.constantGlobal.URL;
 
 public class StepsLoginCRM {
+    TestContext testContext;
+    LoginPage loginPage;
+    LoginCRMPage loginCRMPage;
+    public StepsLoginCRM(TestContext testContext){
+        this.testContext = testContext;
+        loginPage = testContext.getLoginPage();
+        loginCRMPage = testContext.getLoginCRMPage();
+    }
     @Given("User navigate to Login {string} Page")
     public void iAmOnTheLoginPage(String page) {
         WebUI.openURL(PropertiesHelper.getValue("URL"));

@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ThreadGuard;
 public class TestContext {
     private WebDriver driver;
     private CommonPage commonPage;
+    private LoginPage loginPage;
     private LoginCRMPage loginCRMPage;
     private LoginCMSPage loginCMSPage;
     private CategoriesPage categoryPage;
@@ -34,6 +35,12 @@ public class TestContext {
             loginCRMPage = new LoginCRMPage();
         }
         return loginCRMPage;
+    }
+    public LoginPage getLoginPage() {
+        if (loginPage == null) {
+            loginPage = new LoginPage();
+        }
+        return loginPage;
     }
 
     public LoginCMSPage getLoginCMSPage() {
