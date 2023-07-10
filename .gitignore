@@ -4,4 +4,7 @@ allure-reports
 Report
 logs
 allure-results
+log
+pom.xml.versionsBackup
+
 

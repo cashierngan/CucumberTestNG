@@ -1,20 +1,14 @@
 package nganxd.stepdifinitions;
 
-import nganxd.common.BaseTest;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import nganxd.helper.ExcelHelpers;
-import nganxd.helper.PropertiesHelper;
 import nganxd.hooks.TestContext;
-import nganxd.util.WebUI;
+import nganxd.utils.WebUI;
 import nganxd.pages.LoginCMSPage;
 import nganxd.pages.LoginPage;
 import org.openqa.selenium.By;
-import nganxd.drivers.DriverManager;
-
-import static nganxd.constants.constantGlobal.URL;
 
 public class StepsLoginCMS {
     TestContext testContext;

@@ -1,7 +1,7 @@
 package nganxd.pages;
 
-import nganxd.helper.PropertiesHelper;
-import nganxd.util.WebUI;
+import nganxd.helpers.PropertiesHelper;
+import nganxd.utils.WebUI;
 import org.openqa.selenium.By;
 
 public class LoginCRMPage {

@@ -1,18 +1,16 @@
-package nganxd.runner;
+package nganxd.runners;
 
-import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.Test;
 
 @CucumberOptions(
-        features = "src/test/resources/features/Login/LoginCMS.feature",
+        features = "src/test/resources/features/Customers/Customer.feature",
         glue = {"nganxd/stepdifinitions", "nganxd/hooks"},
         plugin = {"pretty", "html:target/cucumber-html-report.html", "html:target/cucumber-reports/LoginCMS.html",
                 "json:target/cucumber-reports/LoginCMS.json", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "nganxd.hooks.CucumberListener"},
-        tags = ""
-
+        tags = "@EditCustomer"
 )
 @Test
-public class TestRunnerLoginCMS extends AbstractTestNGCucumberTests {
-
+public class TestRunnerEditCustomer extends AbstractTestNGCucumberTests{
 }

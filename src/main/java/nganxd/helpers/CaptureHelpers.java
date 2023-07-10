@@ -1,4 +1,4 @@
-package nganxd.helper;
+package nganxd.helpers;
 
 import nganxd.drivers.DriverManager;
 import org.monte.media.Format;

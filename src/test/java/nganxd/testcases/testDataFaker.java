@@ -1,4 +1,4 @@
-package nganxd.TestCase;
+package nganxd.testcases;
 
 import net.datafaker.Faker;
 import org.testng.annotations.Test;

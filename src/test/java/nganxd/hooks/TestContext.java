@@ -3,7 +3,7 @@ package nganxd.hooks;
 import nganxd.drivers.DriverFactory;
 import nganxd.drivers.DriverManager;
 import nganxd.pages.*;
-import nganxd.util.Log;
+import nganxd.utils.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 //import pages.*;

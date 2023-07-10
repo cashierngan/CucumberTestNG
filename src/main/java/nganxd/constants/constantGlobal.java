@@ -2,7 +2,7 @@ package nganxd.constants;
 
 //import PropertiesHelper;
 
-import nganxd.helper.PropertiesHelper;
+import nganxd.helpers.PropertiesHelper;
 
 public class constantGlobal {
     static {

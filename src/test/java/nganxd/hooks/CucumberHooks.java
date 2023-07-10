@@ -3,8 +3,8 @@ package nganxd.hooks;
 import nganxd.common.BaseTest;
 import io.cucumber.java.*;
 import nganxd.drivers.DriverManager;
-import nganxd.helper.PropertiesHelper;
-import nganxd.util.Log;
+import nganxd.helpers.PropertiesHelper;
+import nganxd.utils.Log;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 

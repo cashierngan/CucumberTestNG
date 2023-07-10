@@ -1,8 +1,8 @@
-package nganxd.TestCase;
+package nganxd.testcases;
 
-import nganxd.helper.ExcelHelpers;
-import nganxd.helper.PropertiesHelper;
-import nganxd.util.Log;
+import nganxd.helpers.ExcelHelpers;
+import nganxd.helpers.PropertiesHelper;
+import nganxd.utils.Log;
 import org.testng.annotations.Test;
 
 public class test {

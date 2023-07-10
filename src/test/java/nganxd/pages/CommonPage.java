@@ -1,6 +1,6 @@
 package nganxd.pages;
 
-import nganxd.util.WebUI;
+import nganxd.utils.WebUI;
 import org.openqa.selenium.By;
 
 public class CommonPage {

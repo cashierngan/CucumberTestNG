@@ -79,7 +79,7 @@ public class CucumberListener implements EventListener {
         if (event.getTestStep() instanceof PickleStepTestStep) {
             // TestStepStarted event implements PickleStepTestStep interface
             // Which have additional methods to interact with the event object
-            // So we have to cast TestCase object to get those methods
+            // So we have to cast testcases object to get those methods
             PickleStepTestStep steps = (PickleStepTestStep) event.getTestStep();
             stepName = steps.getStep().getText();
             keyword = steps.getStep().getKeyword();

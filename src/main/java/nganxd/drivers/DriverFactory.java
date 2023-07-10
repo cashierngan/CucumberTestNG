@@ -2,7 +2,7 @@ package nganxd.drivers;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import nganxd.constants.constantGlobal;
-import nganxd.helper.PropertiesHelper;
+import nganxd.helpers.PropertiesHelper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;

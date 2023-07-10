@@ -8,7 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import nganxd.drivers.DriverManager;
-import nganxd.util.WebUI;
+import nganxd.utils.WebUI;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import nganxd.pages.CustomersPage;
@@ -85,7 +85,6 @@ public class StepCustomers {
     @Then("delete message be displayed")
     public void deleteMessageBeDisplayed() {
         WebUI.verifyAssertTrueIsDisplayed(By.xpath("//span[normalize-space()='Customer deleted']"), "Delete customer is failed");
-
     }
 
     @When("user enter invalid credentials to add customers")
@@ -124,9 +123,6 @@ public class StepCustomers {
             WebUI.clickElement(selectCountry);
             WebUI.setTextEnter(inputCountry, country);
             WebUI.clickElement(buttonSave);
-//            WebUI.setTextEnter(inputWebsite,website);
-//            companyName = DriverManager.getDriver().findElement(By.xpath("//input[@id='company']")).getAttribute("value");
-//            System.out.println(companyName);
         }
     }
 
@@ -159,5 +155,10 @@ public class StepCustomers {
     @Then("user should see successful edit customer message")
     public void userShouldSeeSuccessfulEditCustomerMessage() {
         WebUI.verifyAssertTrueIsDisplayed(messageEditCustomerSucess, "Edit Customer is failed");
+    }
+
+    @Then("user should see an error message add customers")
+    public void userShouldSeeAnErrorMessageAddCustomers() {
+        WebUI.verifyAssertTrueIsDisplayed(messageValidCompany, "Error message valid Company is NOT displayed");
     }
 }

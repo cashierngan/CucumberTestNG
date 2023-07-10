@@ -1,8 +1,8 @@
-package nganxd.util;
+package nganxd.utils;
 
 import io.qameta.allure.Step;
 import nganxd.drivers.DriverManager;
-import nganxd.helper.PropertiesHelper;
+import nganxd.helpers.PropertiesHelper;
 import nganxd.reports.AllureReportManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -44,6 +44,7 @@ public class WebUI {
         sleep(STEP_TIME);
         highLightElement(by);
         DriverManager.getDriver().findElement(by).click();
+//        unHighLightElement(by);
 //        ExtentTestManager.logMessage(Status.PASS, "Click element: " + by);
 //        Log.info("Click element: " + by.toString());
         AllureReportManager.saveTextLog("Click element: " + by.toString());
@@ -56,6 +57,7 @@ public class WebUI {
         sleep(STEP_TIME);
         highLightElement(by);
         getWebElement(by).click();
+        unHighLightElement(by);
         logConsole("Click element: " + by.toString());
         AllureReportManager.saveTextLog("Click element: " + by.toString());
 //        ExtentTestManager.logMessage(Status.PASS, "Click element: " + by);
@@ -143,6 +145,7 @@ public class WebUI {
         highLightElement(by);
         clearText(by);
         getWebElement(by).sendKeys(value);
+        unHighLightElement(by);
 //        ExtentTestManager.logMessage(Status.PASS, "Set text: " + value + " on element " + by);
         AllureReportManager.saveTextLog("Set text {1} on {0}");
 //        Log.info("Set text {1} on {0}");
@@ -156,6 +159,7 @@ public class WebUI {
         sleep(STEP_TIME);
         highLightElement(by);
         getWebElement(by).sendKeys(value, Keys.ENTER);
+        unHighLightElement(by);
 //        ExtentTestManager.logMessage(Status.PASS, "Set text: " + value + " on element " + by);
         AllureReportManager.saveTextLog("Set text " + value + " on " + by.toString() + " and key down enter");
 //        Log.info("Set text " + value + " on " + by.toString() + " and key down enter");
@@ -506,6 +510,14 @@ public class WebUI {
         // Tô màu border ngoài chính element chỉ định - màu đỏ (có thể đổi màu khác)
         if (DriverManager.getDriver() instanceof JavascriptExecutor) {
             ((JavascriptExecutor) DriverManager.getDriver()).executeScript("arguments[0].style.border='3px solid red'", getWebElement(by));
+            sleep(1);
+        }
+        return getWebElement(by);
+    }
+
+    public static WebElement unHighLightElement(By by) {
+        if (DriverManager.getDriver() instanceof JavascriptExecutor) {
+            ((JavascriptExecutor) DriverManager.getDriver()).executeScript("arguments[0].style.border='0px'", getWebElement(by));
             sleep(1);
         }
         return getWebElement(by);

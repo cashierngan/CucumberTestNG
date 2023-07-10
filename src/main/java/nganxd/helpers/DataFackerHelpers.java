@@ -1,4 +1,4 @@
-package nganxd.helper;
+package nganxd.helpers;
 
 import net.datafaker.Faker;
 

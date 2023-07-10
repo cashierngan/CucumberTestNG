@@ -1,12 +1,12 @@
 package nganxd.pages;
 
 import nganxd.common.BaseTest;
-import nganxd.helper.PropertiesHelper;
-import nganxd.util.WebUI;
+import nganxd.helpers.PropertiesHelper;
+import nganxd.utils.WebUI;
 import org.openqa.selenium.By;
 
-//import static nganxd.util.WebUI.openURL;
-//import static nganxd.util.WebUI.verifyAssertTrueIsDisplayed;
+//import static nganxd.utils.WebUI.openURL;
+//import static nganxd.utils.WebUI.verifyAssertTrueIsDisplayed;
 
 public class LoginCMSPage extends CommonPage{
     static {
